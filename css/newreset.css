@@ -1,9 +1,7 @@
-<<<<<<< HEAD
-/*
-html5doctor.com Reset Stylesheet
+eset Stylesheet
 v1.6.1
 Last Updated: 2010-09-17
-Author: Richard Clark - http://richclarkdesign.com
+Author: Richard Clark - http://richclarkdesign.com 
 Twitter: @rich_clark
 */
 
@@ -16,7 +14,7 @@ b, i,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
+article, aside, canvas, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video {
     margin:0;
@@ -33,7 +31,7 @@ body {
 }
 
 article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section {
+footer,header,hgroup,menu,nav,section { 
     display:block;
 }
 
@@ -69,7 +67,7 @@ ins {
 /* change colours to suit your needs */
 mark {
     background-color:#ff9;
-    color:#000;
+    color:#000; 
     font-style:italic;
     font-weight:bold;
 }
@@ -92,7 +90,7 @@ table {
 hr {
     display:block;
     height:1px;
-    border:0;
+    border:0;   
     border-top:1px solid #cccccc;
     margin:1em 0;
     padding:0;
@@ -100,44 +98,4 @@ hr {
 
 input, select {
     vertical-align:middle;
-=======
-body {
-	background: #cce7d4;
 }
-div {
-	margin: -160px 0 0 -300px;
-	width: 600px;
-	height: 300px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-}
-
-h1, h2, p {
-	text-align: center;
-	color: #70694a;
-	font-family: 'Droid Sans', Verdana, Arial, Geneva, Helvetica, sans-serif
-}
-
-h1, h2 {
-	padding: 5px 10px 10px;
-}
-
-h1 {
-	margin: 0 auto;
-	width: 158px;
-	height: 129px;
-	text-indent: -5000px;
-	overflow: hidden;
-	background:url(../images/logo.png) no-repeat;
-}
-
-p {
-	line-height: 20px;
-}
-
-img {
-	vertical-align: middle;
->>>>>>> 8feb03a4080497161857aace5df9153478ec1995
-}
-

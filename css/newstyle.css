@@ -1,20 +1,12 @@
 /*MISC*/
 @font-face {
 	font-family: 'AUdimat Regular';
-<<<<<<< HEAD
 	src: local('AUdimat Regular'), url('../fonts/AUdimat-Regular.ttf');
-=======
-	src: local('AUdimat Regular'), url('file:///home/vitoravelino/Development/octahedron/site/fonts/AUdimat-Regular.ttf');
->>>>>>> 8feb03a4080497161857aace5df9153478ec1995
 }
 
 @font-face {
 	font-family: 'AUdimat Bold';
-<<<<<<< HEAD
 	src: local('AUdimat Bold'), url('../fonts/AUdimat-Bold.ttf');
-=======
-	src: local('AUdimat Bold'), url('file:///home/vitoravelino/Development/octahedron/site/fonts/AUdimat-Bold.ttf');
->>>>>>> 8feb03a4080497161857aace5df9153478ec1995
 }
 
 html {height: 100%;}
