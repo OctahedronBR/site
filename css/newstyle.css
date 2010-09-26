@@ -9,7 +9,13 @@
 	src: local('AUdimat Bold'), url('../fonts/AUdimat-Bold.ttf');
 }
 
+* {
+	color: #70694a;
+	font-family: 'AUdimat Regular', Verdana, Arial, Geneva, Helvetica, sans-serif
+}
+
 html {height: 100%;}
+
 body {
 	background-color: #cce7d4;
 	background-image: url(../images/bg-left.png), url(../images/bg-right.png);
@@ -20,21 +26,25 @@ body {
 a {text-decoration: none;}
 a:hover {color:#8e8768}
 
-ul li, h2 {
+a, li, h2, h3, h4 {
 	font-family: 'AUdimat Bold', Verdana, Arial, Geneva, Helvetica, sans-serif
 }
 
-ul li, h2, p, a {
-	color: #70694a;
-}
-
 section#container {
-	margin: 75px 0 0 -375px;
+	margin: 75px 0 0 -400px;
 	padding: 0 0 25px;
-	width: 600px;
+	width: 650px;
 	position: absolute;
 	left: 50%;
 }
+
+hr {
+	margin: 10px 0;
+	height: 3px;
+	background-color: #70694a;
+}
+
+ul li {display: inline;}
 
 /*HEADER*/
 header {
@@ -50,34 +60,51 @@ h1 {
 	text-indent: -5000px;
 	overflow: hidden;
 	background: url(../images/logo-header.png) no-repeat;
-	float:right;
+	float: right;
 }
 
-nav {float:left;}
-ul {padding-top: 85px;}
-ul li {
+header nav {float: left;}
+header ul.menu {padding-top: 85px;}
+header ul li {
 	padding: 0 5px 0;
 	font-size: 17px;
-	display:inline;
-}
-
-hr {
-	margin: 10px 0;
-	height: 3px;
-	color: #70694a;
-	background-color: #70694a;
 }
 
 /*CONTENT*/
+section#content {margin:10px 0 0;}
+
 h2 {
+	padding: 10px;
 	font-size: 23px;
-	padding: 10px 0 0;
+	background-color: #70694a;
+	color: #cce7d4;
 }
 
 p {
 	margin: 10px 0 0;
 	line-height: 20px;
 	text-align: justify;
-	font-family: 'AUdimat Regular', Verdana, Arial, Geneva, Helvetica, sans-serif
 }
+
+/*FOOTER*/
+footer {
+	width: 100%;
+	height: 75px;
+}
+
+section#address {
+	width: 205px;
+	float: left;
+}
+
+h4 {font-size: 16px;}
+
+section#address address {
+	margin: 5px 0 0;
+	font-size: 14px;
+}
+
+section#web {float: right;}
+footer ul li {display:inline;}
+img {vertical-align:middle;}
 
