@@ -61,7 +61,6 @@ header#top {
 	margin: -10px -10px 0;
 	height: 300px;
 	display: table;
-/*	background: url(../images/header12.png) no-repeat;*/
 }
 
 h1 {
@@ -70,7 +69,7 @@ h1 {
 	height: 129px;
 	text-indent: -5000px;
 	overflow: hidden;
-	background: url(../images/logo.png) no-repeat;
+	background: url(../images/new-logo.png) no-repeat;
 	float: right;
 }
 
