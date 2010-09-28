@@ -4,6 +4,6 @@ handlers:
   upload: '.*'
 - url: /(.*)
   static_files: /\1.html
-  upload: '.*'
+  upload: /(.*)
 - url: '/'
   static_dir: '/'
