@@ -2,9 +2,9 @@ handlers:
 - url: '/'
   static_files: 'index.html'
   upload: '.*'
+- url: '/(.*)/(.*)'
+  static_files: '/\1/\2'
+  upload: '/(.*)'
 - url: '/(.*)'
   static_files: /\1.html
   upload: '/(.*)'
-- url: '/(.*)/(.*)'
-  static_files: '/\1/\2'
-  upload: '/.*'
