@@ -1,0 +1,9 @@
+handlers:
+- url: '/'
+  static_files: 'index.html'
+  upload: '.*'
+- url: '/'
+  static_dir: '/'
+- url: '/new'
+	static_files: 'newindex.html'
+
