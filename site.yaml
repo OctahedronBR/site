@@ -5,5 +5,5 @@ handlers:
 - url: '/'
   static_dir: '/'
 - url: '/new'
-	static_files: 'newindex.html'
+  static_files: 'newindex.html'
 
