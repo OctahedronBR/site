@@ -2,8 +2,8 @@ handlers:
 - url: '/'
   static_files: 'index.html'
   upload: '.*'
-- url: '/new'
-  static_files: 'newindex.html'
+- url: /(.*)
+  static_files: /\1.html
   upload: '.*'
 - url: '/'
   static_dir: '/'
