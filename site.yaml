@@ -6,3 +6,4 @@ handlers:
   static_dir: '/'
 - url: '/new'
   static_files: 'newindex.html'
+  upload: '.*'
