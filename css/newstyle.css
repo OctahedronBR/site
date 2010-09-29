@@ -35,8 +35,7 @@ img {vertical-align:middle;}
 
 section#container {
 	margin: 0 auto;
-	padding: 10px;
-	width: 830px;
+	width: 850px;
 	background: rgba(255, 255, 255, 0.7);
 	-moz-box-shadow: 7px 5px 15px #999;
 	-webkit-box-shadow: 7px 5px 15px #999;
@@ -44,7 +43,7 @@ section#container {
 }
 
 hr {
-	margin: 10px 0;
+	margin: 10px;
 	height: 3px;
 	background-color: #70694a;
 }
@@ -58,7 +57,6 @@ section.all {
 
 header#top {
 	width: 850px;
-	margin: -10px -10px 0;
 	height: 300px;
 	display: table;
 }
@@ -82,13 +80,27 @@ header ul li {
 }
 
 /*CONTENT*/
-section#content {margin:10px 0 0;}
+section#content {padding: 10px 0;}
+section#content header {background: #70694a url(../images/bg-title.png) no-repeat right;}
+section#content header ul {padding: 12px 10px 6px;}
+section#content header ul li {display: inline;}
+
+article {padding: 0 10px;}
+
+article#multiple {
+	padding:0;
+	overflow: hidden;
+}
+div#overflowed {width: 1700px;}
+div#overflowed ul li {
+	list-style: none;
+	width: 850px;
+	float: left;
+}
 
 h2 {
-	margin: 0 -10px;
-	padding: 10px 10px 7px;
 	font-size: 23px;
-	background: #70694a url(../images/bg-title.png) no-repeat right;
+	padding: 12px 10px 6px;
 	text-align: right;
 }
 
@@ -100,8 +112,8 @@ p {
 
 /*FOOTER*/
 footer {
-	width: 100%;
 	height: 75px;
+	padding: 0 10px;
 }
 
 section#address {
