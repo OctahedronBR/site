@@ -8,3 +8,5 @@ handlers:
 - url: '/(.*)'
   static_files: /\1.html
   upload: '/(.*)'
+- error_handlers:
+  - file: error.html
