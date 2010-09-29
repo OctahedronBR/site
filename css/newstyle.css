@@ -86,10 +86,9 @@ section#content {margin:10px 0 0;}
 
 h2 {
 	margin: 0 -10px;
-	padding: 10px;
+	padding: 10px 10px 8px;
 	font-size: 23px;
-	background-color: #70694a;
-	color: #f0f8f2;
+	background: #70694a url(../images/bg-title.png) no-repeat right;
 	text-align: right;
 }
 
