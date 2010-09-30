@@ -10,13 +10,21 @@ $(document).ready(function() {
 
 	// The default axis is 'y', but in this demo, I want to scroll both
 	// You can modify any default like this
-	$.localScroll.defaults.axis = 'xy';
+	$.localScroll.defaults.axis = 'x';
 
 	// Scroll initially if there's a hash (#something) in the url
 	$.localScroll.hash({
 		target: '#multiple', // Could be a selector or a jQuery object too.
 		queue: true,
-		duration: 1500
+		duration: 1500,
+		onAfter:function( anchor, settings ){
+			if (anchor.id == 'equipe') {
+				$('article#multiple').animate({height: "593px"}, 1000 );
+			} else {
+				$('article#multiple').animate({height: "255px"}, 1000 );
+			}
+		}
+
 	});
 
 	/**
@@ -28,6 +36,14 @@ $(document).ready(function() {
 		queue:true,
 		duration:1000,
 		hash:true,
+		onAfter:function( anchor, settings ){
+			if (anchor.id == 'equipe') {
+				$('article#multiple').animate({height: "593px"}, 1000 );
+			} else {
+				$('article#multiple').animate({height: "255px"}, 1000 );
+			}
+		}
+
 	});
 });
 

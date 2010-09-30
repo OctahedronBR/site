@@ -31,7 +31,10 @@ a, li, h2, h3, h4 {
 	font-family: 'AUdimat Bold', Verdana, Arial, Geneva, Helvetica, sans-serif
 }
 
-img {vertical-align:middle;}
+img {
+	float: left;
+	vertical-align: middle;
+}
 
 section#container {
 	margin: 0 auto;
@@ -88,6 +91,7 @@ section#content header ul li {display: inline;}
 article {padding: 20px 20px 0;}
 
 article#multiple {
+	height: 255px;
 	padding:0;
 	overflow: hidden;
 }
@@ -112,6 +116,9 @@ p {
 	line-height: 20px;
 	text-align: justify;
 }
+
+section#member {display:table;}
+section#member hgroup {margin:25px 0 0;}
 
 /*FORM*/
 form {margin: 10px 0 0;}
