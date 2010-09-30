@@ -85,12 +85,13 @@ section#content header {background: #70694a url(../images/bg-title.png) no-repea
 section#content header ul {padding: 12px 10px 6px;}
 section#content header ul li {display: inline;}
 
-article {padding: 0 10px;}
+article {padding: 20px 20px 0;}
 
 article#multiple {
 	padding:0;
 	overflow: hidden;
 }
+
 div#overflowed {width: 1700px;}
 div#overflowed ul li {
 	list-style: none;
@@ -104,11 +105,19 @@ h2 {
 	text-align: right;
 }
 
+h3 {font-size: 20px;}
+
 p {
 	margin: 10px 0 0;
 	line-height: 20px;
 	text-align: justify;
 }
+
+/*FORM*/
+form {margin: 10px 0 0;}
+
+input[type='text'], textarea {width:275px;}
+textarea {height:100px;}
 
 /*FOOTER*/
 footer {
