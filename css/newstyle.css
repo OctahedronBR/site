@@ -44,18 +44,15 @@ section#container {
 	box-shadow: 7px 5px 15px #999;
 }
 
-span#right-shadow {
-	width: 100%;
-	height: 100%;
-	-moz-box-shadow: -7px -10px 15px #999;
-	-webkit-box-shadow: -7px -10px 15px #999;
-	box-shadow: -7px -10px 15px #999;
-}
-
 hr {
 	margin: 10px;
 	height: 3px;
 	background-color: #70694a;
+}
+
+p#advise {
+	text-align: center;
+	margin: 0 0 10px;
 }
 
 /*HEADER*/
