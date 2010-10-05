@@ -1,3 +1,5 @@
+/*TODO: SOMBRA DO LADO ESQUERDO!*/
+
 /*MISC*/
 @font-face {
 	font-family: 'AUdimat Regular';
@@ -40,6 +42,14 @@ section#container {
 	-moz-box-shadow: 7px 5px 15px #999;
 	-webkit-box-shadow: 7px 5px 15px #999;
 	box-shadow: 7px 5px 15px #999;
+}
+
+span#right-shadow {
+	width: 100%;
+	height: 100%;
+	-moz-box-shadow: -7px -10px 15px #999;
+	-webkit-box-shadow: -7px -10px 15px #999;
+	box-shadow: -7px -10px 15px #999;
 }
 
 hr {
@@ -114,7 +124,7 @@ p {
 	text-align: justify;
 }
 
-section#member {display:table;}
+section#member {display:table;height: 185px;}
 section#member hgroup {margin:25px 0 0;}
 section#member img {float: left;}
 
@@ -137,7 +147,7 @@ footer {
 }
 
 section#address {
-	width: 205px;
+	width: 270px;
 	float: left;
 }
 
