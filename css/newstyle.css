@@ -98,7 +98,7 @@ section#content header ul {padding: 12px 10px 6px;}
 section#content header ul li {display: inline;}
 
 article {padding: 20px 20px 0;}
-
+article a {border-bottom: 1px dashed #70694a;}
 article#multiple {
 	height: 385px;
 	padding:0;
@@ -106,11 +106,12 @@ article#multiple {
 }
 
 div#overflowed {width: 3400px;}
-div#overflowed ul li {
+div#overflowed ul li.article {
 	list-style: none;
 	width: 850px;
 	float: left;
 }
+div#overflowed ul.list {margin: 0 0 0 30px;}
 
 h2 {
 	font-size: 23px;
@@ -121,13 +122,13 @@ h2 {
 h3 {font-size: 20px;}
 
 p {
-	margin: 10px 0 0;
+	padding: 5px 0;
 	line-height: 20px;
 	text-align: justify;
 }
 
-section#member {display:table;height: 185px;}
-section#member hgroup {margin:25px 0 0;}
+section#member {display:table; height: 188px;}
+section#member hgroup {margin:20px 0 0;}
 section#member img {float: left;}
 
 article.contact {width: 100%; display: table;}
