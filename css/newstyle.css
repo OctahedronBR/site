@@ -60,6 +60,10 @@ p#advise {
 	margin: 0 0 10px;
 }
 
+.right {float:right;}
+.left {float:left;}
+img.right {padding:0 0 0 20px;margin: 0 0 10px 0;}
+
 /*HEADER*/
 section.all {
 	width: 158px;
@@ -94,8 +98,10 @@ header ul li {
 /*CONTENT*/
 section#content {padding: 10px 0;}
 section#content header {background: #70694a url(/images/bg-title.png) no-repeat right;}
+section#content header.index {background: #70694a;}
 section#content header ul {padding: 12px 10px 6px;}
 section#content header ul li {display: inline;}
+section#content header.index p {text-align: center; color: #cce7d4;}
 
 article {padding: 20px 20px 0;}
 article a {border-bottom: 1px dashed #70694a;}
@@ -130,7 +136,6 @@ p {
 section#member {display:table; height: 188px;}
 section#member hgroup {margin:20px 0 0;}
 section#member img {float: left;}
-
 article.contact {width: 100%; display: table;}
 div#column-left {width: 450px; float: left;}
 div#column-right {width: 275px; padding: 0 30px 0 0; float: right;}
@@ -141,6 +146,9 @@ form {margin: 10px 0 0;}
 input[type='text'], textarea {width:275px;}
 
 textarea {height:100px;}
+
+/*SOCIAL*/
+section#social {margin: 20px 0 0 20px;}
 
 /*FOOTER*/
 footer {
