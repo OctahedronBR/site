@@ -148,8 +148,9 @@ input[type='text'], textarea {width:275px;}
 textarea {height:100px;}
 
 /*SOCIAL*/
-section#social {margin: 20px 0 0 20px;}
-
+section#social {width: 375px;margin: 20px 0 0 20px;}
+section#social ul li {list-style: none;text-align:  justify;padding: 10px 0 0 0;font-size:16px;font-family: 'AUdimat Regular', Verdana, Arial, Geneva, Helvetica, sans-serif;}
+section#social ul {}
 /*FOOTER*/
 footer {
 	width: 100%;
