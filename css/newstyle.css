@@ -148,9 +148,13 @@ input[type='text'], textarea {width:275px;}
 textarea {height:100px;}
 
 /*SOCIAL*/
-section#social {width: 375px;margin: 20px 0 0 20px;}
-section#social ul li {list-style: none;text-align:  justify;padding: 10px 0 0 0;font-size:16px;font-family: 'AUdimat Regular', Verdana, Arial, Geneva, Helvetica, sans-serif;}
-section#social ul {}
+section#social {width:100%; margin:20px 0 0; display:table;}
+section#social ul li, section#social ul li a {font-family: 'AUdimat Regular', Verdana, Arial, Geneva, Helvetica, sans-serif;}
+section#social ul li {list-style: none; text-align: justify; padding: 10px 0 0 0; font-size:16px;}
+
+section#twitter {float:left; width: 375px; margin: 0 0 0 20px}
+section#blog {float:left; width:400px; margin: 0 0 0 25px;}
+
 /*FOOTER*/
 footer {
 	width: 100%;
