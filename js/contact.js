@@ -8,7 +8,7 @@ $(document).ready(function() {
 			$.ajax({
 				type: "POST",
 				url: "http://www.octahedron.com.br/email",
-				data: "name=" + name + "&email=" + email + "&message=" + message + ",
+				data: "name=" + name + "&email=" + email + "&message=" + message,
 				dataType: "json",
 				success: function(data) {
 					console.log(data);
