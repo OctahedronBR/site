@@ -5,18 +5,17 @@ $(document).ready(function() {
 		var message =  $("textarea").val();
 
 		if (name.length != 0 && email.length != 0 && message.length != 0) {
+			$("p.warning").html("");
 			$.ajax({
 				type: "POST",
 				url: "http://www.octahedron.com.br/email",
 				data: "name=" + name + "&email=" + email + "&message=" + message,
 				dataType: "json",
 				success: function(data) {
-					console.log(data);
-					console.log(data.status);
-					console.log(data[status]);
 					if (data.status == "ok") {
 						$("p.warning").html("Contato feito com sucesso!");
-						$("textarea").empty();
+						$("input").val("");
+						$("textarea").val("");
 					} else {
 						$("p.warning").html("Preencha o formulário corretamente!");
 					}
