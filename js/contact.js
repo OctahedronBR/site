@@ -11,6 +11,9 @@ $(document).ready(function() {
 				data: "name=" + name + "&email=" + email + "&message=" + message + "&callback=?",
 				dataType: "json",
 				success: function(data) {
+					console.log(data);
+					console.log(data.status);
+					console.log(data[status]);
 					if (data.status == "ok") {
 						$("p.warning").html("Contato feito com sucesso!");
 						$("textarea").empty();
