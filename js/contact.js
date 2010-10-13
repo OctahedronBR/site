@@ -3,8 +3,9 @@ $(document).ready(function() {
 		var name = $("input#name").val();
 		var email = $("input#email").val();
 		var message =  $("textarea").val();
+		var emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
 
-		if (name.length != 0 && email.length != 0 && message.length != 0) {
+		if (name.length != 0 && email.length != 0 && message.length != 0 && emailPattern.test(email)) {
 			$("p.warning").html("");
 			$.ajax({
 				type: "POST",
@@ -12,9 +13,9 @@ $(document).ready(function() {
 				data: "name=" + name + "&email=" + email + "&message=" + message,
 				dataType: "json",
 				success: function(data) {
-					if (data.status == "ok") {
+					if (data != null && data.status == "ok") {
 						$("p.warning").html("Contato feito com sucesso!");
-						$("input").val("");
+						$("input[type=text]").val("");
 						$("textarea").val("");
 					} else {
 						$("p.warning").html("Preencha o formulário corretamente!");

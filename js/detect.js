@@ -121,6 +121,6 @@ var BrowserDetect = {
 BrowserDetect.init();
 
 if ((BrowserDetect.browser == "Firefox" && BrowserDetect.version < 3.5) || (BrowserDetect.browser == "Explorer" && BrowserDetect.version < 9)) {
-	$("body").prepend('<p id="advise">AVISO: O site poderá não ser renderizado da forma correta!<br />Recomendamos que utilize uma das versões mais atualizadas do Firefox, Opera ou Safari.</p>');
+	$("body").prepend('<p id="advise">AVISO: O site poderá conter falhas de renderização devido incompatibilidades com seu browser!<br />Recomendamos que utilize uma das versões mais atualizadas do Firefox, Chrome, Opera ou Safari.</p>');
 }
 
