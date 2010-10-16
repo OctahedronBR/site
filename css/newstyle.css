@@ -63,6 +63,7 @@ p#advise {
 .right {float:right;}
 .left {float:left;}
 img.right {padding:0 0 0 20px;margin: 0 0 10px 0;}
+.tiny-text {height:230px;}
 
 /*HEADER*/
 section.all {
