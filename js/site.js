@@ -6,7 +6,7 @@ $(document).ready(function() {
 		"Estamos apostando todas as fichas na nuvem.(Steve Ballmer)" 
 		"Para começar, pare de falar e comece a fazer. (Walt Disney)",
 		"Você torna-se aquilo em que pensa. (Earl Nightingale)",
-		"Eu descobri que sempre tenho escolhas. E muitas vezes, trata-se apenas de uma escolha de atitude. (Judith M. Knowlton)",
+		"Eu descobri que sempre tenho escolhas. E muitas vezes, trata-se apenas de uma escolha de atitude. (Judith M. Knowlton)"
 	);
 
 	if ($("p#quote").length != 0) {
