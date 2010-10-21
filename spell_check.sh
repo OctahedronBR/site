@@ -15,5 +15,11 @@ fi
 
 for i in *.html
 do 
-	aspell -d pt_BR -H check $i
+	grep "pt-br" $i > /dev/null
+	if [ $? -eq 0 ]
+	then
+		aspell -d pt_BR -H check $i
+	else
+		aspell -d en -H check $i
+	fi
 done
