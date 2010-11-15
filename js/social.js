@@ -10,19 +10,18 @@ $(document).ready(function(){
 	});
 
 	$.getJSON(
-		'http://tech.octahedron.com.br/json?callback=?',
+		'http://blog.octahedron.com.br/json?callback=?',
 		function(data) {
-			alert('a');
-			$("section#twitter ul").hide();
+			$("section#blog ul").hide();
 			if (data.length != 0) {
 				for (index in data) {
-					$("section#twitter ul").append("<li>" + data[index].title + "</li>");
+					$("section#blog ul").append("<li><a href=\"" + data[index].slug + "\">" + data[index].title + "</a></li>");
 				}
 			} else {
-				$("section#twitter ul").append("<li>Blog em andamento. Aguardem!</li>");
+				$("section#blog ul").append("<li>Blog em andamento. Aguardem!</li>");
 			}
-			alert('b');
-			$("section#twitter ul").fadeIn("slow");
+			$("section#blog ul").fadeIn("slow");
 	});
+	alert('a');
 });
 
