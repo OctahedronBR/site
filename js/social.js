@@ -10,18 +10,18 @@ $(document).ready(function(){
 	});
 
 	$.getJSON(
-		'http://blog.octahedron.com.br/json',
+		'http://blog.octahedron.com.br/json?callback=?',
 		function(data) {
+			alert('a');
 			$("section#blog ul").hide();
-			alert(data.length);
 			if (data.length != 0) {
 				for (index in data) {
 					$("section#blog ul").append("<li>" + data[index].title + "</li>");
 				}
 			} else {
-				alert("opa!");
 				$("section#blog ul").append("<li>Blog em andamento. Aguardem!</li>");
 			}
+			alert('b');
 			$("section#blog ul").fadeIn("slow");
 	});
 });
