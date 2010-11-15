@@ -13,8 +13,8 @@ $(document).ready(function(){
 		'http://tech.octahedron.com.br/json?callback=?',
 		function(data) {
 			$("section#blog ul").hide();
-			console.log(data);
-			console.log(data.length);
+			alert(data);
+			alert(data.length);
 			if (data.length != 0) {
 				for (index in data) {
 					$("section#blog ul").append("<li><a href=\"" + data[index].slug + "\">" + data[index].title + "</a></li>");
