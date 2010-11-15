@@ -10,9 +10,11 @@ $(document).ready(function(){
 	});
 
 	$.getJSON(
-		'http://blog.octahedron.com.br/json?callback=?',
+		'http://tech.octahedron.com.br/json?callback=?',
 		function(data) {
 			$("section#blog ul").hide();
+			console.log(data);
+			console.log(data.length);
 			if (data.length != 0) {
 				for (index in data) {
 					$("section#blog ul").append("<li><a href=\"" + data[index].slug + "\">" + data[index].title + "</a></li>");
@@ -22,6 +24,5 @@ $(document).ready(function(){
 			}
 			$("section#blog ul").fadeIn("slow");
 	});
-	alert('a');
 });
 
