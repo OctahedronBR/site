@@ -10,7 +10,7 @@ $(document).ready(function(){
 	});
 
 	$.getJSON(
-		'http://blog.octahedron.com.br/json?callback=?',
+		'http://blog.octahedron.com.br/json',
 		function(data) {
 			$("section#blog ul").hide();
 			alert(data.length);
