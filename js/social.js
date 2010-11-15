@@ -13,16 +13,16 @@ $(document).ready(function(){
 		'http://blog.octahedron.com.br/json?callback=?',
 		function(data) {
 			alert('a');
-			$("section#blog ul").hide();
+			$("section#twitter ul").hide();
 			if (data.length != 0) {
 				for (index in data) {
-					$("section#blog ul").append("<li>" + data[index].title + "</li>");
+					$("section#twitter ul").append("<li>" + data[index].title + "</li>");
 				}
 			} else {
-				$("section#blog ul").append("<li>Blog em andamento. Aguardem!</li>");
+				$("section#twitter ul").append("<li>Blog em andamento. Aguardem!</li>");
 			}
 			alert('b');
-			$("section#blog ul").fadeIn("slow");
+			$("section#twitter ul").fadeIn("slow");
 	});
 });
 
