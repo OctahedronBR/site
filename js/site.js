@@ -3,7 +3,7 @@ $(document).ready(function() {
 
 	var quotes = new Array(
 		"O melhor jeito de prever o futuro é inventá-lo. (Alan Kay)",
-		"Estamos apostando todas as fichas na nuvem.(Steve Ballmer)", 
+		"Estamos apostando todas as fichas na nuvem. (Steve Ballmer)", 
 		"Para começar, pare de falar e comece a fazer. (Walt Disney)",
 		"Você torna-se aquilo em que pensa. (Earl Nightingale)",
 		"Eu descobri que sempre tenho escolhas. E muitas vezes, trata-se apenas de uma escolha de atitude. (Judith M. Knowlton)"

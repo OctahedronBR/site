@@ -120,7 +120,12 @@ var BrowserDetect = {
 
 BrowserDetect.init();
 
+var array = Array();
+array['pt-br'] = "AVISO: O site poderá conter falhas de renderização devido incompatibilidades com seu browser!<br />Recomendamos que utilize uma das versões mais atualizadas do Firefox, Chrome, Opera ou Safari."
+array['en'] = "WARNING: The website may contain some rendering imperfection due to your browser!<br />We suggest you to use the last version of Firefox, Chrome, Opera or Safari."
+
 if ((BrowserDetect.browser == "Firefox" && BrowserDetect.version < 3.5) || (BrowserDetect.browser == "Explorer" && BrowserDetect.version < 9)) {
-	$("body").prepend('<p id="advise">AVISO: O site poderá conter falhas de renderização devido incompatibilidades com seu browser!<br />Recomendamos que utilize uma das versões mais atualizadas do Firefox, Chrome, Opera ou Safari.</p>');
+	var lang = $('html').attr('lang');
+	$('body').prepend('<p id="advise">' +  array[lang] + '</p>');
 }
 

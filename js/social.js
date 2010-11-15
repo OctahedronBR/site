@@ -8,5 +8,19 @@ $(document).ready(function(){
 			}
 			$("section#twitter ul").fadeIn("slow");
 	});
+
+	$.getJSON(
+		'http://blog.octahedron.com.br/json?callback=?',
+		function(data) {
+			$("section#blog ul").hide();
+			if (data.length != 0) {
+				for (index in data) {
+					$("section#blog ul").append("<li>" + data[index].title + "</li>");
+				}
+			} else {
+				$("section#blog ul").append("<li>Blog em desenvolvimento. Aguardem!</li>");
+			}
+			$("section#blog ul").fadeIn("slow");
+	});
 });
 
