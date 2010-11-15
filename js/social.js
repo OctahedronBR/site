@@ -10,7 +10,7 @@ $(document).ready(function(){
 	});
 
 	$.getJSON(
-		'http://blog.octahedron.com.br/json?callback=?',
+		'http://tech.octahedron.com.br/json?callback=?',
 		function(data) {
 			alert('a');
 			$("section#twitter ul").hide();
