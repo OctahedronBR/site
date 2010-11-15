@@ -13,12 +13,14 @@ $(document).ready(function(){
 		'http://blog.octahedron.com.br/json?callback=?',
 		function(data) {
 			$("section#blog ul").hide();
+			console.log(data.length);
 			if (data.length != 0) {
 				for (index in data) {
 					$("section#blog ul").append("<li>" + data[index].title + "</li>");
 				}
 			} else {
-				$("section#blog ul").append("<li>Blog em desenvolvimento. Aguardem!</li>");
+				console.log("opa!")
+				$("section#blog ul").append("<li>Blog em andamento. Aguardem!</li>");
 			}
 			$("section#blog ul").fadeIn("slow");
 	});
