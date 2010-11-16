@@ -10,11 +10,9 @@ $(document).ready(function(){
 	});
 
 	$.getJSON(
-		'http://tech.octahedron.com.br/json?callback=?',
+		'http://blog.octahedron.com.br/json?callback=?',
 		function(data) {
 			$("section#blog ul").hide();
-			alert(data);
-			alert(data.length);
 			if (data.length != 0) {
 				for (index in data) {
 					$("section#blog ul").append("<li><a href=\"" + data[index].slug + "\">" + data[index].title + "</a></li>");
