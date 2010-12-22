@@ -1,0 +1,63 @@
+@font-face {
+	font-family: 'AUdimat Regular';
+	src: local('AUdimat Regular'), url('/fonts/AUdimat-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'AUdimat Bold';
+	src: local('AUdimat Bold'), url('/fonts/AUdimat-Bold.ttf');
+}
+
+body {background: #70694a;}
+
+h1, h2, p, li {
+	color: #70694a;
+}
+
+h1, h2, a {
+	font-family: 'AUdimat Bold', Arial, Verdana, Geneva, Helvetica, sans-serif;
+}
+
+p, li {
+	font-family: 'AUdimat Regular', Arial, Verdana, Geneva, Helvetica, sans-serif;
+	line-height: 18px;
+}
+
+h1 {
+	padding-bottom: 15px;
+	font-size:32px;
+}
+
+h2 {
+	padding: 7px 0;
+	font-size:20px;
+}
+
+a {
+	text-decoration:none;
+	color: #70694a;
+}
+
+a:visited {color:#70694a;}
+
+a:hover {color:#8e8768}
+
+hr {margin:15px 0 10px;}
+
+#all {
+	margin: 30px auto 0;
+	width: 950px;
+	height: 1000px;
+}
+
+#content {
+	margin: 50px 0 0 30px;
+	padding: 15px;
+	background-color: #cce7d4;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	float: right;
+}
+
+#slideshare {float:right;}
