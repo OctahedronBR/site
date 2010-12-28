@@ -1,7 +1,16 @@
-!SLIDE
+[logo]: http://www.octahedron.com.br/images/logo-grande.png
+
 !SLIDE
 
-#Agenda
+![Logo][logo]
+
+## contato@octahedron.com.br
+## http://www.octahedron.com.br
+
+# Dezembro/2010
+!SLIDE
+
+### Agenda
 
 * Objetivo
 
@@ -41,21 +50,22 @@
 
 !SLIDE
 
-## "Entre o benefícios da TI estão a redução de custos operacionais, a melhoria de produtividade e a retenção de clientes."
+#### "Entre o benefícios da TI estão a redução de custos operacionais, a melhoria de produtividade e a retenção de clientes."
  
-### Ana Claudia Plihal, gerente comercial de PMEs e distribuição Microsoft Brasil
+##### Ana Claudia Plihal, gerente comercial de PMEs e distribuição Microsoft Brasil
 
 !SLIDE
 
-## "Os ganhos são inúmeros. Crescem a eficiência, os lucros, a competitividade e a troca com outros países. Sem falar na redução dos gastos com comunicação, algo que ainda compromete o orçamento de muitas empresas."
+#### "Os ganhos são inúmeros. Crescem a eficiência, os lucros, a competitividade e a troca com outros países. Sem falar na redução dos gastos com comunicação, algo que ainda compromete o orçamento de muitas empresas."
  
-### Cássio Tietê, diretor de marketing Intel Brasil
+##### Cássio Tietê, diretor de marketing Intel Brasil
 
 !SLIDE
 
 # Porém...
 
 > Uma boa solução de TI, para ser efetiva no seu objetivo (e realmente ajudar), precisa ter...
+>
 > (Supondo que a solução que você adotou faz aquilo que você espera)
 
 !SLIDE
@@ -73,6 +83,7 @@
 # Escalabilidade
 
 > Ou ainda, suponha que o site de vendas da sua empresa tenha sido noticiado como referência em algum veículo de mídia, e os acessos tiveram um aumento fora do comum. Sua estrutura não foi montada pensando neste pico, e provavelmente sua aplicação não vai aguentar. Você não vai deixar de atender apenas os novos clientes, mas também os antigos, e fiéis, clientes.
+>
 > No final das contas sua grande preocupação com TI é não desperdiçar recursos, mas não perder negócios.
 
 !SLIDE
@@ -131,7 +142,7 @@
 
 !SLIDE
 
-# Computação na Nuvem
+### Computação na Nuvem
 
 *   Aplicação na nuvem
     *   Não se preocupe com onde sua aplicação está
@@ -141,7 +152,7 @@
 
 !SLIDE
 
-# Computação na Nuvem
+### Computação na Nuvem
 
 *   Diminuição de custos
     *  Pague pelo que usar
@@ -180,9 +191,9 @@
 
 !SLIDE
 
-## "As PMEs precisam melhorar os websites, habilitar as funções que permitam uma maior interatividade com o consumidor, utilizar as ferramentas disponíveis para publicidade online e adquirir maior conhecimento sobre o conceito de computação nas nuvens."
+#### "As PMEs precisam melhorar os websites, habilitar as funções que permitam uma maior interatividade com o consumidor, utilizar as ferramentas disponíveis para publicidade online e adquirir maior conhecimento sobre o conceito de computação nas nuvens."
  
-### Alexandre Hohagen, diretor geral Google America Latina
+##### Alexandre Hohagen, diretor geral Google America Latina
 
 !SLIDE
 
@@ -203,6 +214,7 @@
 ## E nos dedicamos a isso!
 
 > Este é sem dúvida o nosso grande diferencial!
+>
 > Computação na Nuvem não é uma novidade que temos que entender e nos adequar; é a nossa realidade, é o mundo onde nascemos.
 
 !SLIDE
@@ -249,4 +261,6 @@
 
 !SLIDE
 
-# Perguntas?
+# Dúvidas?
+## contato@octahedron.com.br
+## http://www.octahedron.com.br
