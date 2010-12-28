@@ -1,11 +1,14 @@
 !SLIDE
 
-<img src="http://www.octahedron.com.br/images/logo-grande.png" alt="Octahedron logo"/>
+<div id="logo">
+	<img src="/images/logo-grande.png" alt="Octahedron logo"/>
+</div>
 
 ## contato@octahedron.com.br
 ## http://www.octahedron.com.br
 
 ## Dezembro/2010
+
 !SLIDE
 
 ### Agenda
@@ -48,13 +51,13 @@
 
 #### "Entre o benefícios da TI estão a redução de custos operacionais, a melhoria de produtividade e a retenção de clientes."
  
-##### Ana Claudia Plihal, gerente comercial de PMEs e distribuição Microsoft Brasil
+##### **Ana Claudia Plihal**, gerente comercial de PMEs e distribuição Microsoft Brasil
 
 !SLIDE
 
 #### "Os ganhos são inúmeros. Crescem a eficiência, os lucros, a competitividade e a troca com outros países. Sem falar na redução dos gastos com comunicação, algo que ainda compromete o orçamento de muitas empresas."
  
-##### Cássio Tietê, diretor de marketing Intel Brasil
+##### **Cássio Tietê**, diretor de marketing Intel Brasil
 
 !SLIDE
 
@@ -161,7 +164,7 @@
 
 #### "Há maior disponibilidade e menor tempo administrativo, é fácil de usar, apresenta integração, colaboração entre usuários e não precisa de atualização do software."
  
-##### Alex Torres, gerente de marketing de produto Google America Latina
+##### **Alex Torres**, gerente de marketing de produto Google America Latina
 
 !SLIDE
 
@@ -189,7 +192,7 @@
 
 #### "As PMEs precisam melhorar os websites, habilitar as funções que permitam uma maior interatividade com o consumidor, utilizar as ferramentas disponíveis para publicidade online e adquirir maior conhecimento sobre o conceito de computação nas nuvens."
  
-##### Alexandre Hohagen, diretor geral Google America Latina
+##### **Alexandre Hohagen**, diretor geral Google America Latina
 
 !SLIDE
 
@@ -243,7 +246,7 @@
 
 # Profissionais capacitados e com experiência
 ##Formados ou em formação na UFCG
-<br/> 
+<br/><br/> 
 ## Atuação em projetos de pesquisa e desenvolvimento em sistemas distribuídos
 ## (HP, Chesf)
 
@@ -255,21 +258,22 @@
 
 # Quem somos?
 
-<div class="left">
-	<img src="http://www.octahedron.com.br/images/members/anderson-feitosa.png" alt="Anderson Lobo"/>
-	Anderson Lobo
-</div>
+<div id="who">
+	<div class="left">
+		<img src="/images/members/anderson-feitosa.png" alt="Anderson Lobo"/>
+		<h6>Anderson Lobo</h6>
+	</div>
 
-<div class="left">
-	<img src="http://www.octahedron.com.br/images/members/danilo-queiroz.png" alt="Danilo Queiroz" class="left"/>
-	Danilo Queiroz
-</div>
+	<div class="left">
+		<img src="/images/members/danilo-queiroz.png" alt="Danilo Queiroz" class="left"/>
+		<h6>Danilo Queiroz</h6>
+	</div>
 
-<div>
-	<img src="http://www.octahedron.com.br/images/members/vitor-avelino.png" alt="Vítor Avelino" class="left"/>
-	Vítor Avelino
+	<div class="left">
+		<img src="/images/members/vitor-avelino.png" alt="Vítor Avelino"/>
+		<h6>Vítor Avelino</h6>
+	</div>
 </div>
-
 
 !SLIDE
 
