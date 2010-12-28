@@ -8,6 +8,6 @@ Abaixo logo após o <body>:
 	<div id="instructions">
 		Use as setas esquerda/direita para navegar e as cima/baixo para habilitar/desabilitar as notas.
 	</div>
-Antes de fechar a </body>:
+No <head> após os scripts:
 	<script src="http://static.getclicky.com/js" type="text/javascript"></script>
 	<script type="text/javascript">clicky.init(254723);</script>
