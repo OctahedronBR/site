@@ -36,7 +36,7 @@
 *   Ser mais competitivo
 *   Maior produtividade
 *   Tomadas de decições mais acertadas
-*   *Usufruir* ao invés de *possuir*
+*   **Usufruir** ao invés de **possuir**
 
 !SLIDE
 
@@ -99,7 +99,7 @@
 
 !SLIDE
 
-# Demanda *tempo* e *dinheiro*...
+# Demanda tempo e dinheiro...
 
 ## e não é o seu foco!
 
@@ -217,7 +217,7 @@
 
 # Empresa jovem criada por jovens empreendedores
 
-> Fazemos parte da tal "Geração Y"
+> Fazemos parte da tão falada "Geração Y"
 
 !SLIDE
 
@@ -243,7 +243,7 @@
 
 # Profissionais capacitados e com experiência
 ##Formados ou em formação na UFCG
- 
+<br/> 
 ## Atuação em projetos de pesquisa e desenvolvimento em sistemas distribuídos
 ## (HP, Chesf)
 
