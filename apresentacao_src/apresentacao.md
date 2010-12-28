@@ -1,8 +1,6 @@
-[logo]: http://www.octahedron.com.br/images/logo-grande.png
-
 !SLIDE
 
-![Logo][logo]
+<img src="http://www.octahedron.com.br/images/logo-grande.png" alt="Octahedron logo"/>
 
 ## contato@octahedron.com.br
 ## http://www.octahedron.com.br
@@ -13,11 +11,9 @@
 ### Agenda
 
 * Objetivo
-
 *   O que você precisa?
 *   Foco no negócio
 *   O que você deseja?
-
 *   Computação na nuvem
 *   A Octahedron
 
