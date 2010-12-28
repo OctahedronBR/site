@@ -5,7 +5,7 @@
 ## contato@octahedron.com.br
 ## http://www.octahedron.com.br
 
-# Dezembro/2010
+## Dezembro/2010
 !SLIDE
 
 ### Agenda
@@ -159,9 +159,9 @@
 
 !SLIDE
 
-## "Há maior disponibilidade e menor tempo administrativo, é fácil de usar, apresenta integração, colaboração entre usuários e não precisa de atualização do software."
+#### "Há maior disponibilidade e menor tempo administrativo, é fácil de usar, apresenta integração, colaboração entre usuários e não precisa de atualização do software."
  
-### Alex Torres, gerente de marketing de produto Google America Latina
+##### Alex Torres, gerente de marketing de produto Google America Latina
 
 !SLIDE
 
@@ -254,6 +254,22 @@
 !SLIDE
 
 # Quem somos?
+
+<div class="left">
+	<img src="http://www.octahedron.com.br/images/members/anderson-feitosa.png" alt="Anderson Lobo"/>
+	Anderson Lobo
+</div>
+
+<div class="left">
+	<img src="http://www.octahedron.com.br/images/members/danilo-queiroz.png" alt="Danilo Queiroz" class="left"/>
+	Danilo Queiroz
+</div>
+
+<div>
+	<img src="http://www.octahedron.com.br/images/members/vitor-avelino.png" alt="Vítor Avelino" class="left"/>
+	Vítor Avelino
+</div>
+
 
 !SLIDE
 
