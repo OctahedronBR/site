@@ -142,7 +142,7 @@
   }
 
   function hideInstructions() {
-    $('#instructions').slideUp(200);
+    $('#instructions').slideUp(500);
   }
 
   $(window).bind('resize', function() { adjustSlides(); });

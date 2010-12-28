@@ -63,9 +63,9 @@
 
 # Porém...
 
-> Uma boa solução de TI, para ser efetiva no seu objetivo (e realmente ajudar), precisa ter...
->
 > (Supondo que a solução que você adotou faz aquilo que você espera)
+>
+> Uma boa solução de TI, para ser efetiva no seu objetivo (e realmente ajudar), precisa ter...
 
 !SLIDE
 
@@ -75,7 +75,7 @@
 
 # Disponibilidade
 
-> Imagine que sua empresa adotou uma solução de TI para controle de estoque, mas esta solução esta sempre fora do ar. Você não só tem que fazer o controle manualmente, tal como feito antes, como você ainda perdeu tempo cadastrando seu estoque na aplicação e perde tempo tentando usar a aplicação.
+> Imagine que sua empresa adotou uma solução de TI para controle de estoque, mas esta solução está sempre fora do ar. Você não só tem que fazer o controle manualmente, tal como feito antes, como você ainda perdeu tempo cadastrando seu estoque na aplicação e perde tempo tentando usar a aplicação.
 
 !SLIDE
 
@@ -280,3 +280,5 @@
 # Dúvidas?
 ## contato@octahedron.com.br
 ## http://www.octahedron.com.br/
+
+> Para voltar ao início, tecle ESC.

@@ -1,0 +1,8 @@
+Para gerar a apresentação foi utilizado o slidedown (https://github.com/nakajima/slidedown/).
+
+Após gerar, será necessário alterar o título da página e o cabeçalho para referenciar as pastas corretas de estilo e scripts (css e js, respectivamente).
+
+Também será necessário adicionar o código abaixo logo após o <body>:
+	<div id="instructions">
+		Use as setas esquerda/direita para navegar e as cima/baixo para habilitar/desabilitar as notas.
+	</div>
