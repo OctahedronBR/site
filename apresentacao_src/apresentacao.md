@@ -5,8 +5,8 @@
 </div>
 
 ## contato@octahedron.com.br
-## http://www.octahedron.com.br
-
+## http://www.octahedron.com.br/
+<br/><br/>
 ## Dezembro/2010
 
 !SLIDE
@@ -279,4 +279,4 @@
 
 # Dúvidas?
 ## contato@octahedron.com.br
-## http://www.octahedron.com.br
+## http://www.octahedron.com.br/

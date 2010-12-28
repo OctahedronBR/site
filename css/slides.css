@@ -27,7 +27,7 @@ body {
 .left {float: left;}
 
 img {display:block;}
-#logo {width:450px;height:366px;margin: 0 auto 30px;}
+#logo {width:350px;height:285px;margin: 0 auto 35px;}
 #who {width:620px; height:215px; margin: 0 auto;}
 #who > div {padding: 0 0 0 15px;text-align: center;}
 
