@@ -166,6 +166,6 @@
       $('.notes').show();
     }
 
-    window.setTimeout(hideInstructions, 10000);
+//    window.setTimeout(hideInstructions, 10000);
   });
 })(jQuery);
