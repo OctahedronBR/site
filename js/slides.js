@@ -40,10 +40,17 @@
 
     $('#track').animate({ marginLeft: '-' + offset + 'px' }, 200);
   }
-
+  var showNotes = true;
   var verticalAlign = function() {
+    $("blockquote").slideUp(1);
+    $(this).find("blockquote").each(function() {
+      if (showNotes) {
+        $(this).slideDown();
+      }
+    });
     var dimensions = slideDimensions();
-    var margin = (dimensions.height - $(this).height()) / 2;
+    var slide = $(this);
+    var margin = (dimensions.height - slide.height()) / 2;
     $(this).css({ paddingTop: margin + 'px' });
   }
 
@@ -55,7 +62,8 @@
       fontSize: '26px'
     });
 
-    allSlides().find('.content').each(verticalAlign);
+//    allSlides().find('.content').each(verticalAlign);
+    $("#slide-" + getIndex()).each(verticalAlign)
   }
 
   var adjustSlides = function() {
@@ -85,8 +93,10 @@
     if (dir = DIRECTIONS[event.which || event]) {
       if (DIRECTIONS[event.which] == 'up') {
           $("blockquote").slideDown("slow");
+          showNotes = true;
       } else if (DIRECTIONS[event.which] == 'down') {
           $("blockquote").slideUp("slow");
+          showNotes = false;
       } else if (dir == 'home') {
         if (event.preventDefault && event.stopPropagation) {
           event.preventDefault();
@@ -148,7 +158,7 @@
   $(window).bind('resize', function() { adjustSlides(); });
   $(document).bind('keydown', move);
   $(document).bind('hash.changed', adjustSlides);
-  // $(document).bind('click', clickMove);
+  $(document).bind('click', clickMove);
   $(document).ready(function() {
     setIndex(getIndex() || 0);
     $(this).trigger('hash.changed');
@@ -156,6 +166,6 @@
       $('.notes').show();
     }
 
-    window.setTimeout(hideInstructions, 3000);
+    window.setTimeout(hideInstructions, 10000);
   });
 })(jQuery);
