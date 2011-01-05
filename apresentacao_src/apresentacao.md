@@ -38,7 +38,7 @@
 
 *   Ser mais competitivo
 *   Maior produtividade
-*   Tomadas de decições mais acertadas
+*   Tomadas de decisões mais acertadas
 *   **Usufruir** ao invés de **possuir**
 
 !SLIDE
