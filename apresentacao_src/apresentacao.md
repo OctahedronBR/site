@@ -224,7 +224,7 @@
 
 !SLIDE
 
-# Inovadora não só pelo que faz, mas por como pensa e haje.
+# Inovadora não só pelo que faz, mas por como pensa e age.
 
 ## Desenvolvimento ágil, software livre
 
