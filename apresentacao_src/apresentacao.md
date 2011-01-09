@@ -98,7 +98,7 @@
 
 > Quantas máquinas você (acha que) precisa? E se a demanda crescer inesperadamente? E se a máquina pifar? E se a rede cair?
 >
-> Planejamento de capacidade e custo operacional elevado são dois dos principais problemas referentes a disponibilidade e escalabilidade e que mais pesam na hora de adotar soluções de TI.
+> Planejamento de capacidade e custo operacional elevado são dois dos principais problemas referentes a disponibilidade e escalabilidade, e que mais pesam na hora de adotar soluções de TI.
 
 !SLIDE
 
@@ -204,7 +204,7 @@
 
 ## Somos uma empresa de desenvolvimento de aplicações web para ambiente de computação na nuvem.
 
-> Somos totalmente dedicados à computação na nuvem e buscamos sempre nos especializarmos ainda mais nesta área.
+> Somos totalmente dedicados à computação na nuvem e buscamos sempre nos especializar ainda mais nesta área.
 
 !SLIDE
 
