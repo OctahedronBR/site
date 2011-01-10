@@ -13,7 +13,7 @@
 
 ### Summary
 
-* Purpose
+*   Purpose
 *   What you need?
 *   Focus on business
 *   What you wish?
@@ -81,9 +81,9 @@
 
 # Scalability
 
->Or, suppose your e-commerce website has been reported as a reference on TV or radio, and the accessions had an unusual increase. The structure of the system was not built thinking in this peak and probably will not last. You will not only fail to meet new customers, but also the old and faithful clients. 
+> Or, suppose your e-commerce website has been reported as a reference on TV or radio, and the number of visits had an unusual increase. The structure of the system was not built thinking in this peak and probably will not last. You will not only fail to meet new customers, but also the old and faithful clients. 
 >
-> In the end, your big IT concern is not wasting resources, but do not lose business.
+> In the end, your main IT concern is not wasting resources, but do not lose business.
 
 !SLIDE
 
@@ -120,7 +120,7 @@
 
 !SLIDE 
 
-*   Low cost of IT implantation Baixo custo de implantação de TI  
+*   Low cost of IT implantation  
 *   (Almost) zero maintenance
 *   Do not waste resources
 *   Tech resources on demand
@@ -239,7 +239,7 @@
 
 ## City reference in technology
 
-> The city, which is known as "Silicon Valley of Brazil ", is the birthplace of Parque Tecnológico da Paraíba (PaqTcPb) and the Universidade Federal de Campina Grande (UFCG).
+> The city, which is known as the "Brazilian Silicon Valley", is the birthplace of Parque Tecnológico da Paraíba (PaqTcPb) and the Universidade Federal de Campina Grande (UFCG).
 > UFCG is a reference in Computer Science and Electrical Engineering.
 
 !SLIDE 
