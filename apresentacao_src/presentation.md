@@ -7,7 +7,7 @@
 ## contato@octahedron.com.br
 ## http://www.octahedron.com.br/
 <br/><br/>
-## Dezembro/2010
+## December/2010
 
 !SLIDE
 
@@ -22,7 +22,7 @@
 
 !SLIDE
 
-# Purprose
+# Purpose
 
 !SLIDE
 
@@ -49,15 +49,15 @@
 
 !SLIDE
 
-#### "Entre o benefícios da TI estão a redução de custos operacionais, a melhoria de produtividade e a retenção de clientes."
+#### "Among the benefits of IT are the reduction of operational costs, improvement of productivity and customer retention."
  
-##### **Ana Claudia Plihal**, gerente comercial de PMEs e distribuição Microsoft Brasil
+##### **Ana Claudia Plihal**, SMB Customer, Breadth Resellers & Distribution Manager of Microsoft Brasil
 
 !SLIDE
 
-#### "Os ganhos são inúmeros. Crescem a eficiência, os lucros, a competitividade e a troca com outros países. Sem falar na redução dos gastos com comunicação, algo que ainda compromete o orçamento de muitas empresas."
+#### "The gains are many. Growing efficiency, profits, competitiveness and trade with other countries. Not to mention the reduction in spending on communication, something that affects the budget of many companies."
  
-##### **Cássio Tietê**, diretor de marketing Intel Brasil
+##### **Cássio Tietê**, marketing director of Intel Brazil
 
 !SLIDE
 
@@ -98,7 +98,7 @@
 
 > How many machines do you (think) need? And if demand grows unexpectedly? And if the machine goes down? And if the network goes down?
 >
-> Capacity planning and high operational cost are two major problems regarding the availability and scalability and that weigh more time to adopt IT solutions. Planejamento de capacidade e custo operacional elevado são dois dos principais problemas referentes a disponibilidade e escalabilidade e que mais pesam na hora de adotar soluções de TI.
+> Capacity planning and high operational cost are two major problems regarding the availability and scalability, that are the most important things when adopting IT solutions.
 
 !SLIDE
 
@@ -162,9 +162,9 @@
 
 !SLIDE
 
-#### "Há maior disponibilidade e menor tempo administrativo, é fácil de usar, apresenta integração, colaboração entre usuários e não precisa de atualização do software."
+#### "There is more availability and reduced administrative time, it is easy to use, provides integration, collaboration between users and no need to update software."
  
-##### **Alex Torres**, gerente de marketing de produto Google America Latina
+##### **Alex Torres**, product marketing manager of Google America Latina
 
 !SLIDE
 
@@ -190,9 +190,9 @@
 
 !SLIDE
 
-#### "As PMEs precisam melhorar os websites, habilitar as funções que permitam uma maior interatividade com o consumidor, utilizar as ferramentas disponíveis para publicidade online e adquirir maior conhecimento sobre o conceito de computação nas nuvens."
+#### "SMBs need to improve their websites, enable the functions that enable greater interactivity with the consumer, use the tools available to online advertising and acquire more knowledge about the concept of cloud computing."
  
-##### **Alexandre Hohagen**, diretor geral Google America Latina
+##### **Alexandre Hohagen**, general manager of Google America Latina
 
 !SLIDE
 
@@ -228,7 +228,7 @@
 
 ## Agile development, free software
 
-> Buscamos sempre conhecer as novidades e entender como elas podem nos ajudar. Olhamos sempre pra frente.
+> We always seek to know new things and understand how they can help us. Always looking forward.
 > We want to do what we do even better.
 >
 > So, we are already a company that uses agile development methodologies and have great relationship with the universe of Free Software.
@@ -245,7 +245,7 @@
 !SLIDE 
 
 # Trained and experienced professionals
-## Formados ou em formação na UFCG
+## Graduated and undergraduate students from UFCG
 <br/><br/> 
 ## Worked in research and development projects in distributed system area
 ## (HP, Chesf)
@@ -281,4 +281,4 @@
 ## contato@octahedron.com.br
 ## http://www.octahedron.com.br/
 
-> Para voltar ao início, tecle ESC.
+> To start over, press ESC.
