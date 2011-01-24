@@ -1,19 +1,36 @@
-/*TODO: SOMBRA DO LADO ESQUERDO!*/
-
 /*MISC*/
 @font-face {
-	font-family: 'AUdimat Regular';
-	src: local('AUdimat Regular'), url('/fonts/AUdimat-Regular.ttf');
+	font-family: 'AUdimat';
+	src: url('/fonts/AUdimat-Regular.eot');
+	src: local('☺'), url('/fonts/AUdimat-Regular.ttf') format('truetype');
 }
 
 @font-face {
-	font-family: 'AUdimat Bold';
-	src: local('AUdimat Bold'), url('/fonts/AUdimat-Bold.ttf');
+	font-family: 'AUdimat';
+	src: url('/fonts/AUdimat-Bold.eot');
+	src: local('☺'), url('/fonts/AUdimat-Bold.ttf') format('truetype');
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: 'AUdimat';
+	src: url('/fonts/AUdimat-Italic.eot');
+	src: local('☺'), url('/fonts/AUdimat-Italic.ttf') format('truetype');
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'AUdimat';
+	src: url('/fonts/AUdimat-BoldItalic.eot');
+	src: local('☺'), url('/fonts/AUdimat-BoldItalic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
 }
 
 * {
 	color: #70694a;
-	font-family: 'AUdimat Regular', "Gill Sans MT", "Gill Sans", GillSans, Arial, Helvetica, sans-serif;
+	font-family: 'AUdimat', "Trebuchet MS", "Lucida Grande", Arial, serif;
+	font-weight: normal;
 }
 
 html {height: 100%;}
@@ -30,7 +47,8 @@ a {text-decoration: none;}
 a:hover {color:#8e8768}
 
 a, li, h2, h3, h4 {
-	font-family: 'AUdimat Bold', Verdana, Arial, Geneva, Helvetica, sans-serif
+	font-family: 'AUdimat', "Trebuchet MS", "Lucida Grande", Arial, serif;
+	font-weight: bold;
 }
 
 h4 {
@@ -152,11 +170,11 @@ input[type='text'], textarea {width:275px;}
 
 textarea {height:100px;}
 
-p.warning {font-family: 'AUdimat Regular', Verdana, Arial, Geneva, Helvetica, sans-serif; font-weight: bold;}
+p.warning {font-weight: bold;}
 
 /*SOCIAL*/
 section#social {width:100%; margin:40px 0 0; display:table;}
-section#social ul li, section#blog ul li a {font-family: 'AUdimat Regular', Verdana, Arial, Geneva, Helvetica, sans-serif;}
+section#social ul li, section#blog ul li a {font-weight: normal;}
 section#social ul li {list-style: none; text-align: justify; padding: 10px 0 0 0; font-size:16px;}
 
 section#twitter {float:left; width: 400px; margin: 0 0 0 20px}
