@@ -46,7 +46,7 @@ body {
 a {text-decoration: none;}
 a:hover {color:#8e8768}
 
-a, li, h2, h3, h4 {font-weight: bold;}
+a, li, h2, h3, h4, strong {font-weight: bold;}
 
 h4 {
 	margin: 10px 0 0;

@@ -10,7 +10,20 @@
 			<link rel="stylesheet" type="text/css" href="/css/ie-sux.css">
 			<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
 			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="/js/selectivizr.js"></script>
 		<![endif]-->
+
+		<script src="/js/head.load.min.js"></script>
+		<script>
+			head.js(
+				"http://static.getclicky.com/js",
+				"http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js",
+				"/js/site.js",
+				"/js/detect.js",
+				function() {
+					clicky.init(254723);
+			});
+		</script>
 
 		<title>Octahedron - Clientes</title>
 	</head>
@@ -62,11 +75,6 @@
 				</section>
 			</footer>
 		</section>
-		<script src="http://static.getclicky.com/js" type="text/javascript"></script>
-		<script type="text/javascript">clicky.init(254723);</script>
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-		<script type="text/javascript" src="/js/site.js"></script>
-		<script type="text/javascript" src="/js/contact.js"></script>
 	</body>
 </html>
 
