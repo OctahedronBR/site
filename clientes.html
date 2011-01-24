@@ -26,10 +26,10 @@
 		<script type="text/javascript" src="/js/head.load.min.js"></script>
 		<script>
 			head.js(
-				"http://static.getclicky.com/js",
 				"http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js",
 				"/js/site.js",
-				"/js/detect.js"
+				"/js/detect.js",
+				"http://static.getclicky.com/js"
 			);
 		</script>
 	</head>
@@ -81,7 +81,7 @@
 				</section>
 			</footer>
 		</section>
-		<script type="text/javascript">clicky.init(254723)</script>
+		<script type="text/javascript">head.ready("http://static.getclicky.com/js", function() {clicky.init(254723);});</script>
 	</body>
 </html>
 
