@@ -153,6 +153,10 @@ p {
 	text-align: justify;
 }
 
+em {
+	font-style: italic;
+}
+
 section#member {display:table; height: 188px;}
 section#member hgroup {margin:20px 0 0;}
 section#member img {float: left;}
