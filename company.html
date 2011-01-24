@@ -17,22 +17,20 @@
 
 		<!--[if lt IE 9]>
 			<link rel="stylesheet" type="text/css" href="/css/ie-sux.css">
-			<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
-			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-			<script src="/js/selectivizr.js"></script>
+			<script type="text/javascript" src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+			<script type="text/javascript" src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+			<script type="text/javascript" src="/js/selectivizr.js"></script>
 		<![endif]-->
 
-		<script src="/js/head.load.min.js"></script>
+		<script type="text/javascript" src="/js/head.load.min.js"></script>
 		<script>
 			head.js(
 				"http://static.getclicky.com/js",
 				"http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js",
 				"/js/site.js",
 				"/js/scroll.js",
-				"/js/detect.js",
-				function() {
-					clicky.init(254723);
-			});
+				"/js/detect.js"
+			);
 		</script>
 	</head>
 
@@ -136,6 +134,7 @@
 				</section>
 			</footer>
 		</section>
+		<script type="text/javascript">clicky.init(254723)</script>
 	</body>
 </html>
 
