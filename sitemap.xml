@@ -6,58 +6,67 @@
                       http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://www.octahedron.com.br/</loc>
-  <priority>0.5000</priority>
- </url>
- <url>
-  <loc>http://www.octahedron.com.br/404</loc>
+  <changefreq>monthly</changefreq>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://www.octahedron.com.br/apresentacao</loc>
+  <changefreq>monthly</changefreq>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://www.octahedron.com.br/clientes</loc>
+  <changefreq>monthly</changefreq>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://www.octahedron.com.br/company</loc>
-  <priority>0.5000</priority>
- </url>
- <url>
-  <loc>http://www.octahedron.com.br/construction</loc>
-  <priority>0.5000</priority>
+  <changefreq>monthly</changefreq>
+  <priority>0.7000</priority>
  </url>
  <url>
   <loc>http://www.octahedron.com.br/contact</loc>
+  <changefreq>monthly</changefreq>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://www.octahedron.com.br/contato</loc>
+  <changefreq>monthly</changefreq>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://www.octahedron.com.br/customers</loc>
+  <changefreq>monthly</changefreq>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://www.octahedron.com.br/empresa</loc>
-  <priority>0.5000</priority>
+  <changefreq>monthly</changefreq>
+  <priority>0.7000</priority>
  </url>
  <url>
   <loc>http://www.octahedron.com.br/en</loc>
+  <changefreq>monthly</changefreq>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://www.octahedron.com.br/index</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.5000</priority>
+ </url>
+ <url>
+  <loc>http://www.octahedron.com.br/presentation</loc>
+  <changefreq>monthly</changefreq>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://www.octahedron.com.br/solucoes</loc>
-  <priority>0.5000</priority>
+  <changefreq>monthly</changefreq>
+  <priority>0.7000</priority>
  </url>
  <url>
   <loc>http://www.octahedron.com.br/solutions</loc>
-  <priority>0.5000</priority>
+  <changefreq>monthly</changefreq>
+  <priority>0.7000</priority>
  </url>
 </urlset>
