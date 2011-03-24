@@ -111,6 +111,8 @@ img
 	vertical-align: middle
 
 header#top > aside, section#content > header
+	a
+		font-weight: bold
 	a, a:visited
 		color: $light
 	a:hover
@@ -174,10 +176,10 @@ header#top
 
 			> ul
 				margin: 0 0 0 13px
-				padding: 40px 0 0 0
+				padding: 35px 0 0 0
 
 				> li
-					font-size: 16px
+					font-size: 17px
 
 		h1
 			margin: 15px 13px 0 0
@@ -209,7 +211,7 @@ section#content
 				> li
 					margin: 0 5px 0 5px
 					color: $light
-					font-size: 16px
+					font-size: 17px
 					display: inline
 
 	> header.index
@@ -219,7 +221,7 @@ section#content
 		> p
 			padding: 6px 0 0 0
 			color: $light
-			font-size: 15px
+			font-size: 14px
 			text-align: center
 
 	> article
@@ -233,6 +235,12 @@ section#content
 			font-size: 14px
 			line-height: 21px
 			text-align: justify
+
+		a
+			border-bottom: 1px dashed $dark
+
+	> article.index
+		display: table
 
 	> article#multiple /* inner sections */
 		height: 410px
@@ -255,8 +263,10 @@ section#content
 		section#member
 			display: table
 			height: 188px
+
 			> hgroup
 				margin: 20px 0 0
+
 			> img 
 				float: left
 
@@ -269,10 +279,36 @@ section#content
 			margin: 0 0 0 20px
 			float: left
 
+			> ul 
+				margin: 10px 0 0
+
+				> li
+					margin: 0 0 15px
+					font-size: 13px
+					line-height: 19.5px
+					list-style: none
+					display: table
+
+					> img
+						margin: 3px 10px 0 0
+						float: left
+						-moz-box-shadow: 0 0 4px #999
+						-webkit-box-shadow: 0 0 4px #999
+						box-shadow: 0 0 4px #999
+
 		> section#blog
 			width: 375px
 			margin: 0 0 0 25px
 			float: left
+
+			> ul 
+				margin: 10px 0 0 15px
+
+				> li
+					margin: 0 0 5px
+					font-size: 13px
+					line-height: 21px
+
 
 	> article.contact /* contact */
 		width: 100%
@@ -288,6 +324,7 @@ section#content
 			> form
 				input[type='text'], textarea
 					width: 275px
+					margin: 0 0 5px
 				textarea
 					height: 100px
 

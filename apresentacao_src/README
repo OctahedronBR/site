@@ -1,6 +1,8 @@
 Para gerar a apresentação foi utilizado o slidedown (https://github.com/nakajima/slidedown/).
 
 Após gerar, será necessário alterar o título da página e o cabeçalho para referenciar as pastas corretas de estilo e scripts (css e js, respectivamente).
+	/apresentacao_src/js/
+	/apresentacao_src/css/
 
 Serão necessário adicionar o códigos...
 
@@ -11,3 +13,9 @@ Abaixo logo após o <body>:
 No <head> após os scripts:
 	<script src="http://static.getclicky.com/js" type="text/javascript"></script>
 	<script type="text/javascript">clicky.init(254723);</script>
+    <script>
+      var _gaq=[["_setAccount","UA-22233247-1"],["_trackPageview"]];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+      g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
+      s.parentNode.insertBefore(g,s)}(document,"script"));
+    </script>
