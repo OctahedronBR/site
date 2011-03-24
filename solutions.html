@@ -11,24 +11,21 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-		<link rel="shortcut icon" type="image/x-icon" href="/images/icon48px.png" />
-		<link rel="stylesheet" type="text/css" href="/css/newreset.css">
-		<link rel="stylesheet" type="text/css" href="/css/newstyle.css">
+		<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png" />
+		<link rel="stylesheet" type="text/css" href="/css/boilerplate.css">
+		<link rel="stylesheet" type="text/css" href="/css/style.css">
 
 		<!--[if lt IE 9]>
-			<link rel="stylesheet" type="text/css" href="/css/ie-sux.css">
-			<script type="text/javascript" src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
-			<script type="text/javascript" src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 			<script type="text/javascript" src="/js/selectivizr.js"></script>
 		<![endif]-->
-
-		<script type="text/javascript" src="/js/head.load.min.js"></script>
+		<script type="text/javascript" src="/js/libs/modernizr-1.7.min.js"></script>
+		<script type="text/javascript" src="/js/libs/head.load.min.js"></script>
 		<script>
 			head.js(
-				"http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js",
+				"http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js",
 				"/js/site.js",
-				"/js/scroll.js",
 				"/js/detect.js",
+				"/js/scroll.js",
 				"http://static.getclicky.com/js",
 				function() {
 					clicky.init(254723);
@@ -45,7 +42,7 @@
 		</section>
 		<section id="container">
 			<header id="top">
-				<section class="all">
+				<aside>
 					<a href="/en"><h1>Octahedron</h1></a>
 					<nav>
 						<ul class="menu">
@@ -56,7 +53,7 @@
 							<li><a href="/contact">Contact</a></li>
 						</ul>
 					</nav>
-				</section>
+				</aside>
 			</header>
 
 			<section id="content">
@@ -78,7 +75,7 @@
 				<article id="multiple">
 					<div id="overflowed">
 						<ul>
-							<li class="article" id="you">
+							<li id="you">
 								<article>
 									<h3>For you</h3>
 									<p>Born in the <a href="https://secure.wikimedia.org/wikipedia/en/wiki/Cloud_computing" target="blank">cloud computing</a> era, the <strong>Octahedron</strong> provides <em>consulting</em> on cloud computing technologies and <em>develops</em> applications to these environments. Our main goal is to provides robust solutions with <strong>low operational costs</strong>.</p>
@@ -91,7 +88,7 @@
 									<p>To understand more how we can help you, check out our presentation <a href="/presentation">here</a>.</p>
 								</article>
 							</li>
-							<li class="article" id="why-cloud">
+							<li id="why-cloud">
 								<article>
 									<h3>Why on the cloud?</h3>
 									<p>Let's take a look at the main cloud computing advantages? ;)
@@ -103,7 +100,7 @@
 									<p>For companies that are just starting out, organizations in emerging market, cloud computing greatly reduces startup costs. The new organization starts with an infrastructure already in place, so the time and other resources that would be spent on building a data center are borne by the cloud provider.</p>
 								</article>
 							</li>
-							<li class="article" id="how-we-work">
+							<li id="how-we-work">
 								<article>
 									<h3>How we work</h3>
 									<h4>Methodology</h4>
@@ -129,7 +126,7 @@
 									</ul>
 								</article>
 							</li>
-							<li class="article" id="opensource">
+							<li id="opensource">
 								<article>
 									<h3>Open source projects</h3>
 									<h4>Cotopaxi</h4>

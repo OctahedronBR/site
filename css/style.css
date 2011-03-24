@@ -1,266 +1,280 @@
-/*MISC*/
+/* font-faces */
 @font-face {
-	font-family: 'Charis SIL';
-	src: url('/fonts/CharisSILB-webfont.eot');
-	src: local('☺'), url('/fonts/CharisSILB-webfont.woff') format('woff'), url('/fonts/CharisSILB-webfont.ttf') format('truetype'), url('/fonts/CharisSILB-webfont.svg#webfontX4pGz9fc') format('svg');
-	font-weight: 700;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Charis SIL';
-	src: url('/fonts/CharisSILBI-webfont.eot');
-	src: local('☺'), url('/fonts/CharisSILBI-webfont.woff') format('woff'), url('/fonts/CharisSILBI-webfont.ttf') format('truetype'), url('/fonts/CharisSILBI-webfont.svg#webfontX4pGz9fc') format('svg');
-	font-weight: 700;
-	font-style: italic;
-}
-@font-face {
-	font-family: 'Charis SIL';
-	src: url('/fonts/CharisSILI-webfont.eot');
-	src: local('☺'), url('/fonts/CharisSILI-webfont.woff') format('woff'), url('/fonts/CharisSILI-webfont.ttf') format('truetype'), url('/fonts/CharisSILI-webfont.svg#webfontX4pGz9fc') format('svg');
-	font-weight: 400;
-	font-style: italic;
-}
+  font-family: "Charis SIL";
+  src: url("/fonts/CharisSILB-webfont.eot");
+  src: local("☺"), url("/fonts/CharisSILB-webfont.woff") format("woff"), url("/fonts/CharisSILB-webfont.ttf") format("truetype"), url("/fonts/CharisSILB-webfont.svg#webfontX4pGz9fc") format("svg");
+  font-weight: 700;
+  font-style: normal; }
 
 @font-face {
-	font-family: 'Charis SIL';
-	src: url('/fonts/CharisSILR-webfont.eot');
-	src: local('☺'), url('/fonts/CharisSILR-webfont.woff') format('woff'), url('/fonts/CharisSILR-webfont.ttf') format('truetype'), url('/fonts/CharisSILR-webfont.svg#webfontX4pGz9fc') format('svg');
-	font-weight: 400;
-	font-style: normal;
-}
+  font-family: "Charis SIL";
+  src: url("/fonts/CharisSILBI-webfont.eot");
+  src: local("☺"), url("/fonts/CharisSILBI-webfont.woff") format("woff"), url("/fonts/CharisSILBI-webfont.ttf") format("truetype"), url("/fonts/CharisSILBI-webfont.svg#webfontX4pGz9fc") format("svg");
+  font-weight: 700;
+  font-style: italic; }
 
 @font-face {
-	font-family: 'PT Sans';
-	src: url('/fonts/PTS75F-webfont.eot');
-	src: local('☺'), url('/fonts/PTS75F-webfont.woff') format('woff'), url('/fonts/PTS75F-webfont.ttf') format('truetype'), url('/fonts/PTS75F-webfont.svg#webfontX4pGz9fc') format('svg');
-	font-weight: 700;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'PT Sans';
-	src: url('/fonts/PTS76F-webfont.eot');
-	src: local('☺'), url('/fonts/PTS76F-webfont.woff') format('woff'), url('/fonts/PTS76F-webfont.ttf') format('truetype'), url('/fonts/PTS76F-webfont.svg#webfontX4pGz9fc') format('svg');
-	font-weight: 700;
-	font-style: italic;
-}
-@font-face {
-	font-family: 'PT Sans';
-	src: url('/fonts/PTS56F-webfont.eot');
-	src: local('☺'), url('/fonts/PTS56F-webfont.woff') format('woff'), url('/fonts/PTS56F-webfont.ttf') format('truetype'), url('/fonts/PTS56F-webfont.svg#webfontX4pGz9fc') format('svg');
-	font-weight: 400;
-	font-style: italic;
-}
-@font-face {
-	font-family: 'PT Sans';
-	src: url('/fonts/PTS55F-webfont.eot');
-	src: local('☺'), url('/fonts/PTS55F-webfont.woff') format('woff'), url('/fonts/PTS55F-webfont.ttf') format('truetype'), url('/fonts/PTS55F-webfont.svg#webfontX4pGz9fc') format('svg');
-	font-weight: 400;
-	font-style: normal;
-}
+  font-family: "Charis SIL";
+  src: url("/fonts/CharisSILI-webfont.eot");
+  src: local("☺"), url("/fonts/CharisSILI-webfont.woff") format("woff"), url("/fonts/CharisSILI-webfont.ttf") format("truetype"), url("/fonts/CharisSILI-webfont.svg#webfontX4pGz9fc") format("svg");
+  font-weight: 400;
+  font-style: italic; }
 
 @font-face {
-	font-family: 'Nobile';
-	src: url('/fonts/nobile_bold-webfont.eot');
-	src: local('☺'), url('/fonts/nobile_bold-webfont.woff') format('woff'), url('/fonts/nobile_bold-webfont.ttf') format('truetype'), url('/fonts/nobile_bold-webfont.svg#webfontX4pGz9fc') format('svg');
-	font-weight: 700;
-	font-style: normal;
-}
+  font-family: "Charis SIL";
+  src: url("/fonts/CharisSILR-webfont.eot");
+  src: local("☺"), url("/fonts/CharisSILR-webfont.woff") format("woff"), url("/fonts/CharisSILR-webfont.ttf") format("truetype"), url("/fonts/CharisSILR-webfont.svg#webfontX4pGz9fc") format("svg");
+  font-weight: 400;
+  font-style: normal; }
+
 @font-face {
-	font-family: 'Nobile';
-	src: url('/fonts/nobile_bold_italic-webfont.eot');
-	src: local('☺'), url('/fonts/nobile_bold_italic-webfont.woff') format('woff'), url('/fonts/nobile_bold_italic-webfont.ttf') format('truetype'), url('/fonts/nobile_bold_italic-webfont.svg#webfontX4pGz9fc') format('svg');
-	font-weight: 700;
-	font-style: italic;
-}
+  font-family: "PT Sans";
+  src: url("/fonts/PTS75F-webfont.eot");
+  src: local("☺"), url("/fonts/PTS75F-webfont.woff") format("woff"), url("/fonts/PTS75F-webfont.ttf") format("truetype"), url("/fonts/PTS75F-webfont.svg#webfontX4pGz9fc") format("svg");
+  font-weight: 700;
+  font-style: normal; }
+
 @font-face {
-	font-family: 'Nobile';
-	src: url('/fonts/nobile_italic-webfont.eot');
-	src: local('☺'), url('/fonts/nobile_italic-webfont.woff') format('woff'), url('/fonts/nobile_italic-webfont.ttf') format('truetype'), url('/fonts/nobile_italic-webfont.svg#webfontX4pGz9fc') format('svg');
-	font-weight: 400;
-	font-style: italic;
-}
+  font-family: "PT Sans";
+  src: url("/fonts/PTS76F-webfont.eot");
+  src: local("☺"), url("/fonts/PTS76F-webfont.woff") format("woff"), url("/fonts/PTS76F-webfont.ttf") format("truetype"), url("/fonts/PTS76F-webfont.svg#webfontX4pGz9fc") format("svg");
+  font-weight: 700;
+  font-style: italic; }
+
 @font-face {
-	font-family: 'Nobile';
-	src: url('/fonts/nobile-webfont.eot');
-	src: local('☺'), url('/fonts/nobile-webfont.woff') format('woff'), url('/fonts/nobile-webfont.ttf') format('truetype'), url('/fonts/nobile-webfont.svg#webfontX4pGz9fc') format('svg');
-	font-weight: 400;
-	font-style: normal;
-}
+  font-family: "PT Sans";
+  src: url("/fonts/PTS56F-webfont.eot");
+  src: local("☺"), url("/fonts/PTS56F-webfont.woff") format("woff"), url("/fonts/PTS56F-webfont.ttf") format("truetype"), url("/fonts/PTS56F-webfont.svg#webfontX4pGz9fc") format("svg");
+  font-weight: 400;
+  font-style: italic; }
 
-* {
-	color: #70694a;
-	font-family: "PT Sans", "Arial", "Helvetica", "Lucida Grande", "Gill Sans", "Verdana", sans-serif;
-	font-weight: normal;
-}
+@font-face {
+  font-family: "PT Sans";
+  src: url("/fonts/PTS55F-webfont.eot");
+  src: local("☺"), url("/fonts/PTS55F-webfont.woff") format("woff"), url("/fonts/PTS55F-webfont.ttf") format("truetype"), url("/fonts/PTS55F-webfont.svg#webfontX4pGz9fc") format("svg");
+  font-weight: 400;
+  font-style: normal; }
 
-html {height: 100%;}
+@font-face {
+  font-family: "Nobile";
+  src: url("/fonts/nobile_bold-webfont.eot");
+  src: local("☺"), url("/fonts/nobile_bold-webfont.woff") format("woff"), url("/fonts/nobile_bold-webfont.ttf") format("truetype"), url("/fonts/nobile_bold-webfont.svg#webfontX4pGz9fc") format("svg");
+  font-weight: 700;
+  font-style: normal; }
 
-body {
-	background-color: #cce7d4;
-	background-image: url('/images/bg-left.png'), url('/images/bg-right.png');
-	background-repeat: no-repeat, no-repeat;
-	background-position: 0 125%, 100% 0;
-	padding: 15px;
-}
+@font-face {
+  font-family: "Nobile";
+  src: url("/fonts/nobile_bold_italic-webfont.eot");
+  src: local("☺"), url("/fonts/nobile_bold_italic-webfont.woff") format("woff"), url("/fonts/nobile_bold_italic-webfont.ttf") format("truetype"), url("/fonts/nobile_bold_italic-webfont.svg#webfontX4pGz9fc") format("svg");
+  font-weight: 700;
+  font-style: italic; }
 
-a {text-decoration: none;}
-a:hover {color:#8e8768}
+@font-face {
+  font-family: "Nobile";
+  src: url("/fonts/nobile_italic-webfont.eot");
+  src: local("☺"), url("/fonts/nobile_italic-webfont.woff") format("woff"), url("/fonts/nobile_italic-webfont.ttf") format("truetype"), url("/fonts/nobile_italic-webfont.svg#webfontX4pGz9fc") format("svg");
+  font-weight: 400;
+  font-style: italic; }
 
-a, li, h2, h3, h4, strong {font-weight: bold;}
+@font-face {
+  font-family: "Nobile";
+  src: url("/fonts/nobile-webfont.eot");
+  src: local("☺"), url("/fonts/nobile-webfont.woff") format("woff"), url("/fonts/nobile-webfont.ttf") format("truetype"), url("/fonts/nobile-webfont.svg#webfontX4pGz9fc") format("svg");
+  font-weight: 400;
+  font-style: normal; }
 
-h4 {
-	margin: 10px 0 0;
-	font-size: 16px;
-}
-
-img {vertical-align: middle;}
-
-section#container {
-	margin: 0 auto;
-	width: 850px;
-	background: rgba(255, 255, 255, 0.7);
-	-moz-box-shadow: 7px 5px 15px #999;
-	-webkit-box-shadow: 7px 5px 15px #999;
-	box-shadow: 7px 5px 15px #999;
-}
-
-hr {
-	margin: 10px;
-	height: 3px;
-	background-color: #70694a;
-}
-
-p#advise {
-	text-align: center;
-	margin: 0 0 10px;
-}
-
-.right {float:right;}
-.left {float:left;}
-img.right {padding:0 0 0 20px;margin: 0 0 10px 0;}
-.tiny-text {height:230px;}
-
-/*HEADER*/
-section#flags {margin: 0 auto 5px; width: 850px;}
-section#flags ul li {display: inline;}
-section#flags a {font-size: 15px;}
-
-section.all {
-	width: 158px;
-	height: 300px;
-	background: url("/images/header-bg.png") repeat scroll 0 0 transparent;
-}
-
-header#top {
-	width: 850px;
-	height: 300px;
-	display: table;
-}
-
+/* declarations */
+/* misc */
 h1 {
-	margin: 15px 13px 0 0;
-	width: 132px;
-	height: 129px;
-	text-indent: -5000px;
-	overflow: hidden;
-	background: url(/images/logo-light-normal.png) no-repeat;
-	float: right;
-}
-
-header nav {float: left;}
-header ul.menu {padding: 40px 0 0 10px;}
-header ul li, header a {color: #cce7d4;}
-header ul li {
-	padding: 0 3px 2px;
-	font-size: 17px;
-}
-
-/*CONTENT*/
-section#content {padding: 10px 0;}
-section#content header {background: #70694a url(/images/bg-title.png) no-repeat right;}
-section#content header.index {background: #70694a;}
-section#content header ul {padding: 12px 10px 6px;}
-section#content header ul li {display: inline;}
-section#content header.index p {text-align: center; color: #cce7d4;}
-
-article {padding: 20px 20px 0;}
-article a {border-bottom: 1px dashed #70694a;}
-article#multiple {
-	height: 410px;
-	padding:0;
-	overflow: hidden;
-}
-
-div#overflowed {width: 3400px;}
-div#overflowed ul li.article {
-	list-style: none;
-	width: 850px;
-	float: left;
-}
-div#overflowed ul.list {margin: 0 0 0 30px;}
+  font-size: 24px; }
 
 h2 {
-	font-size: 23px;
-	padding: 12px 10px 6px;
-	text-align: right;
-}
+  font-size: 22px; }
 
-h3 {font-size: 20px;}
+h3 {
+  font-size: 20px; }
 
-p {
-	padding: 5px 0;
-	line-height: 20px;
-	text-align: justify;
-}
+h4 {
+  font-size: 18px; }
 
-em {
-	font-style: italic;
-}
+h5 {
+  font-size: 16px; }
 
-section#member {display:table; height: 188px;}
-section#member hgroup {margin:20px 0 0;}
-section#member img {float: left;}
-article.contact {width: 100%; display: table;}
-div#column-left {width: 450px; float: left;}
-div#column-right {width: 275px; padding: 0 30px 0 0; float: right;}
+h6 {
+  font-size: 16px; }
 
-/*FORM*/
-form {margin: 10px 0 0;}
+a {
+  text-decoration: none; }
 
-input[type='text'], textarea {width:275px;}
+a, a:visited {
+  color: #70694a; }
 
-textarea {height:100px;}
+a:hover {
+  color: #8e8768; }
 
-p.warning {font-weight: bold;}
+img {
+  vertical-align: middle; }
 
-/*SOCIAL*/
-section#social {width:100%; margin:40px 0 0; display:table;}
-section#social ul li, section#blog ul li a {font-weight: normal;}
-section#social ul li {list-style: none; text-align: justify; padding: 10px 0 0 0; font-size:16px;}
+header#top > aside a, header#top > aside a:visited, section#content > header a, section#content > header a:visited {
+  color: #cce7d4; }
+header#top > aside a:hover, section#content > header a:hover {
+  color: #8e8768; }
 
-section#twitter {float:left; width: 400px; margin: 0 0 0 20px}
-section#blog {float:left; width:375px; margin: 0 0 0 25px;}
+/* classes */
+.left {
+  float: left; }
 
-/*FOOTER*/
+.right {
+  float: right; }
+
+.tiny-article {
+  height: 230px; }
+
+/* starts here */
+html {
+  height: 100%; }
+
+body {
+  padding: 15px;
+  font-family: "PT Sans", "Arial", "Helvetica", "Lucida Grande", "Gill Sans", "Verdana", sans-serif;
+  background-color: #cce7d4;
+  background-image: url("/images/bg-left.png"), url("/images/bg-right.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: 0 125%, 100% 0; }
+
+section#flags {
+  margin: 0 auto 5px;
+  width: 850px; }
+  section#flags > ul {
+    margin: 0; }
+    section#flags > ul > li {
+      display: inline; }
+      section#flags > ul > li > a {
+        color: #70694a; }
+
+section#container {
+  margin: 0 auto;
+  width: 850px;
+  background: rgba(255, 255, 255, 0.7);
+  -moz-box-shadow: 7px 5px 15px #999999;
+  -webkit-box-shadow: 7px 5px 15px #999999;
+  box-shadow: 7px 5px 15px #999999; }
+
+header#top {
+  width: 850px;
+  height: 300px;
+  display: table; }
+  header#top > aside {
+    width: 158px;
+    height: 300px;
+    background: url("/images/header-bg.png") repeat scroll 0 0 transparent; }
+    header#top > aside > nav {
+      float: left; }
+      header#top > aside > nav > ul {
+        margin: 0 0 0 13px;
+        padding: 40px 0 0 0; }
+        header#top > aside > nav > ul > li {
+          font-size: 16px; }
+    header#top > aside h1 {
+      margin: 15px 13px 0 0;
+      width: 132px;
+      height: 129px;
+      text-indent: -5000px;
+      overflow: hidden;
+      background: url(/images/logo-light-normal.png) no-repeat;
+      float: right; }
+
+/* content */
+section#content {
+  padding: 10px 0; }
+  section#content > header {
+    height: 38px;
+    background: #70694a url(/images/bg-header-title.png) no-repeat right; }
+    section#content > header > h2 {
+      padding: 8px 10px 0 0;
+      text-align: right; }
+    section#content > header > nav {
+      float: left; }
+      section#content > header > nav > ul {
+        margin: 8px 0 0 10px; }
+        section#content > header > nav > ul > li {
+          margin: 0 5px 0 5px;
+          color: #cce7d4;
+          font-size: 16px;
+          display: inline; }
+  section#content > header.index {
+    height: 32px;
+    background: #70694a; }
+    section#content > header.index > p {
+      padding: 6px 0 0 0;
+      color: #cce7d4;
+      font-size: 15px;
+      text-align: center; }
+  section#content > article {
+    margin: 20px 20px 0; }
+    section#content > article > img {
+      padding: 0 0 0 10px; }
+    section#content > article p {
+      margin: 5px 0;
+      font-size: 14px;
+      line-height: 21px;
+      text-align: justify; }
+  section#content > article#multiple {
+    height: 410px;
+    overflow: hidden; }
+    section#content > article#multiple > div#overflowed {
+      width: 3400px; }
+      section#content > article#multiple > div#overflowed > ul {
+        margin: 0; }
+        section#content > article#multiple > div#overflowed > ul > li {
+          list-style: none;
+          width: 810px;
+          float: left; }
+          section#content > article#multiple > div#overflowed > ul > li > article > h3 {
+            padding-bottom: 0; }
+    section#content > article#multiple section#member {
+      display: table;
+      height: 188px; }
+      section#content > article#multiple section#member > hgroup {
+        margin: 20px 0 0; }
+      section#content > article#multiple section#member > img {
+        float: left; }
+  section#content > section#social {
+    padding: 15px 0 0 0;
+    display: table; }
+    section#content > section#social > section#twitter {
+      width: 400px;
+      margin: 0 0 0 20px;
+      float: left; }
+    section#content > section#social > section#blog {
+      width: 375px;
+      margin: 0 0 0 25px;
+      float: left; }
+  section#content > article.contact {
+    width: 100%;
+    display: table; }
+    section#content > article.contact > div#form {
+      width: 450px;
+      float: left; }
+      section#content > article.contact > div#form > p.warning {
+        font-weight: bold; }
+      section#content > article.contact > div#form > form input[type='text'], section#content > article.contact > div#form > form textarea {
+        width: 275px; }
+      section#content > article.contact > div#form > form textarea {
+        height: 100px; }
+    section#content > article.contact > div#other-contacts {
+      width: 275px;
+      padding: 0 20px 0 0;
+      float: right; }
+
+/* footer */
 footer {
-	width: 100%;
-	padding: 0 10px 10px;
-	display: table;
-}
-
-section#address {
-	width: 270px;
-	float: left;
-}
-
-section#address address {
-	margin: 5px 0 0;
-	font-size: 14px;
-}
-
-section#partners {
-	float: right;
-	margin: 0 20px 0 0;
-}
-footer ul li {display:inline;}
-
+  width: 100%;
+  padding: 0 0 10px;
+  display: table; }
+  footer > section#address {
+    float: left;
+    padding: 0 0 0 10px; }
+  footer > section#partners {
+    float: right;
+    padding: 0 10px 0 0; }

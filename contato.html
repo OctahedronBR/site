@@ -12,24 +12,21 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-		<link rel="shortcut icon" type="image/x-icon" href="/images/icon48px.png" />
-		<link rel="stylesheet" type="text/css" href="/css/newreset.css">
-		<link rel="stylesheet" type="text/css" href="/css/newstyle.css">
+		<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png" />
+		<link rel="stylesheet" type="text/css" href="/css/boilerplate.css">
+		<link rel="stylesheet" type="text/css" href="/css/style.css">
 
 		<!--[if lt IE 9]>
-			<link rel="stylesheet" type="text/css" href="/css/ie-sux.css">
-			<script type="text/javascript" src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
-			<script type="text/javascript" src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 			<script type="text/javascript" src="/js/selectivizr.js"></script>
 		<![endif]-->
-
-		<script type="text/javascript" src="/js/head.load.min.js"></script>
+		<script type="text/javascript" src="/js/libs/modernizr-1.7.min.js"></script>
+		<script type="text/javascript" src="/js/libs/head.load.min.js"></script>
 		<script>
 			head.js(
-				"http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js",
+				"http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js",
 				"/js/site.js",
-				"/js/contact.js",
 				"/js/detect.js",
+				"/js/contact.js",
 				"http://static.getclicky.com/js",
 				function() {
 					clicky.init(254723);
@@ -46,7 +43,7 @@
 		</section>
 		<section id="container">
 			<header id="top">
-				<section class="all">
+				<aside>
 					<a href="/"><h1>Octahedron</h1></a>
 					<nav>
 						<ul class="menu">
@@ -57,7 +54,7 @@
 							<li><a href="/contato">Contato</a></li>
 						</ul>
 					</nav>
-				</section>
+				</aside>
 			</header>
 
 			<section id="content">
@@ -65,7 +62,7 @@
 						<h2>Contato</h2>
 					</header>
 					<article class="contact">
-						<div id="column-left">
+						<div id="form">
 							<h3>Fale conosco!</h3>
 							<p>Se você tem uma ideia ou projeto no qual possamos ajudá-lo, ou queira fazer uma parceria, ou queira somente dar um "Olá", sinta-se à vontade!</p>
 							<p class="warning"></p>
@@ -73,22 +70,22 @@
 								<fieldset>
 									<label for="name">Nome</label><br />
 									<input name="name" id="name" type="text" placeholder="Nome e sobrenome" required /><br />
-									<label for="name">Email</label><br />
+									<label for="email">Email</label><br />
 									<input name="email" id="email" type="text" placeholder="email@dominio.com.br" required /><br />
-									<label for="name">Mensagem</label><br />
+									<label for="message">Mensagem</label><br />
 									<textarea name="message" placeholder="Fique à vontade..." required></textarea><br />
 									<input id="submit" type="submit" value="Enviar" />
 								</fieldset>
 							</form>
 						</div>
-						<div id="column-right">
+						<div id="other-contacts">
 							<h3>Endereço</h3>
 							<p>
 						Dom Pedro I, 173, Sala 302, São José<br />
 						Campina Grande - PB, 58400-414<br />
 						<a href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Octahedron&sll=-7.223354,-35.891647&sspn=0.092302,0.154324&ie=UTF8&hq=Octahedron&hnear=&z=13&iwloc=A" target="_blank">No Mapa</a>
 							</p>
-							<br /><hr /><br />
+							<hr />
 							<h3>Outros contatos</h3>
 							<p>Email: <a href="mailto:contato@octahedron.com.br">contato@octahedron.com.br</a> <br />
 								 Twitter: <a href="http://twitter.com/octahedronbr">@OctahedronBR</a> <br />
