@@ -97,7 +97,7 @@ section#blog > ul > li { margin: 0 0 5px; font-size: 14px; line-height: 21px; }
 
 article#multiple { height: 400px; overflow: hidden; }
 
-div#overflowed { width: 3400px; }
+div#overflowed { width: 4250px; }
 div#overflowed > ul { margin: 0; }
 div#overflowed > ul > li { list-style: none; width: 810px; float: left; }
 div#overflowed > ul > li > article > ul { margin-top: 0; padding-top: 0; }
