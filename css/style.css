@@ -65,7 +65,7 @@ section#container { margin: 0 auto; width: 850px; background: rgba(255, 255, 255
 header#top { width: 850px; height: 300px; display: table; }
 header#top > aside { width: 158px; height: 300px; background: url("/images/header-bg.png") repeat scroll 0 0 transparent; }
 header#top > aside > nav { float: left; }
-header#top > aside > nav > ul { margin: 0 0 0 13px; padding: 25px 0 0 0; }
+header#top > aside > nav > ul { margin: 0 0 0 13px; padding: 8px 0 0 0; }
 header#top > aside > nav > ul > li { padding: 1px 0 2px 0; font-size: 16.5px; }
 header#top > aside h1 { margin: 15px 13px 0 0; width: 132px; height: 129px; text-indent: -5000px; overflow: hidden; background: url(/images/logo-light-normal.png) no-repeat; float: right; }
 
@@ -97,7 +97,7 @@ section#blog > ul > li { margin: 0 0 5px; font-size: 14px; line-height: 21px; }
 
 article#multiple { height: 400px; overflow: hidden; }
 
-div#overflowed { width: 4250px; }
+div#overflowed { width: 3400px; }
 div#overflowed > ul { margin: 0; }
 div#overflowed > ul > li { list-style: none; width: 810px; float: left; }
 div#overflowed > ul > li > article > ul { margin-top: 0; padding-top: 0; }

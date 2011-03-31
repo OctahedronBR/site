@@ -202,19 +202,21 @@
 
 # Octahedron
 
-## We are a startup that develops web applications for cloud computing environment.
+## We are a company that provides communication and processes solutions, providing flexibility, scalability, availability and innovation for your business.
 
+> We use the cloud computing to reach those intangibles values to the business because we believe that this is the closest business model of the ideal.
+>
 > We are totally focused on cloud computing and we are always trying to specialize even more in this area.
 
 !SLIDE
 
 ### Our services
 
-* Consulting and integration
+* Assistance and integration
 * Projetcs on demand
 * Software as a Service
 
-> For more information, check out <a href="/solucoes" target="_blank">our services</a> on the company's site.
+> For more information, check out <a href="/services" target="_blank">our services</a> on the company's site.
 
 !SLIDE
 

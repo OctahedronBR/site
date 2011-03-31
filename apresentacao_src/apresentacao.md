@@ -202,19 +202,21 @@
 
 # A Octahedron
 
-## Somos uma empresa de desenvolvimento de soluções web para ambiente de computação em nuvem.
+## Somos uma empresa que provê soluções em comunicação e processos, proporcionando agilidade, escalabilidade, disponibilidade e inovação para seu negócio.
 
-> Somos totalmente dedicados à computação em nuvem e buscamos sempre nos especializar ainda mais nesta área.
+> Fazemos o uso da computação em nuvem para atingir tais valores intangíveis para o negócio, pois acreditamos que este seja o modelo de negócio mais próximo do ideal.
+>
+>Somos totalmente dedicados à computação em nuvem e buscamos sempre nos especializar ainda mais nesta área.
 
 !SLIDE
 
 ### Nossos serviços
 
-* Consultoria e integração
+* Assistência e integração
 * Projetos sob demanda
 * Software como serviço
 
-> Para maiores informações, confira <a href="/solucoes" target="_blank">nossos serviços</a> na página da empresa.
+> Para maiores informações, confira <a href="/servicos" target="_blank">nossos serviços</a> na página da empresa.
 
 !SLIDE
 
