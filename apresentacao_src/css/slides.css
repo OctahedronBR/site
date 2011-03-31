@@ -31,6 +31,9 @@ img {display:block;}
 #who {width:620px; height:215px; margin: 0 auto;}
 #who > div {padding: 0 0 0 15px;text-align: center;}
 
+a {text-decoration: none;}
+blockquote > p > a, blockquote > p > a:visited {color: #cce7d4; border-bottom: 1px dashed #cce7d4;}
+
 h1 {
 	margin: 0 0 50px;
 	text-align:center; 

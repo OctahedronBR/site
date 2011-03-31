@@ -1,7 +1,7 @@
 !SLIDE
 
 <div id="logo">
-	<img src="/images/logo-grande.png" alt="Octahedron logo"/>
+	<img src="/images/logo-dark-big.png" alt="Octahedron logo"/>
 </div>
 
 ## contato@octahedron.com.br
@@ -17,7 +17,7 @@
 *   O que você precisa?
 *   Foco no negócio
 *   O que você deseja?
-*   Computação na nuvem
+*   Computação em nuvem
 *   A Octahedron
 
 !SLIDE
@@ -137,13 +137,13 @@
 
 !SLIDE
 
-# Computação na Nuvem
+# Computação em Nuvem
 
 !SLIDE
 
-### Computação na Nuvem
+### Computação em Nuvem
 
-*   Aplicação na nuvem
+*   Aplicação em nuvem
     *   Não se preocupe com onde sua aplicação está
 *   Não é preciso instalar software 
 *   Só é preciso estar conectado a Internet 
@@ -151,7 +151,7 @@
 
 !SLIDE
 
-### Computação na Nuvem
+### Computação em Nuvem
 
 *   Diminuição de custos
     *  Pague pelo que usar
@@ -202,19 +202,33 @@
 
 # A Octahedron
 
-## Somos uma empresa de desenvolvimento de aplicações web para ambiente de computação na nuvem.
+## Somos uma empresa de desenvolvimento de soluções web para ambiente de computação em nuvem.
 
-> Somos totalmente dedicados à computação na nuvem e buscamos sempre nos especializar ainda mais nesta área.
+> Somos totalmente dedicados à computação em nuvem e buscamos sempre nos especializar ainda mais nesta área.
 
 !SLIDE
 
-# Nascida na era da computação na nuvem
+### Nossos serviços
+
+* Consultoria e integração
+* Projetos sob demanda
+* Software como serviço
+
+> Para maiores informações, confira <a href="/solucoes" target="_blank">nossos serviços</a> na página da empresa.
+
+!SLIDE
+
+# Mas por que escolher a Octahedron?
+
+!SLIDE
+
+# Nascida na era da computação em nuvem
 
 ## E nos dedicamos a isso!
 
 > Este é sem dúvida o nosso grande diferencial!
 >
-> Computação na Nuvem não é uma novidade que temos que entender e nos adequar; é a nossa realidade, é o mundo onde nascemos.
+> Computação em Nuvem não é uma novidade que temos que entender e nos adequar; é a nossa realidade, é o mundo onde nascemos.
 
 !SLIDE
 
@@ -260,13 +274,13 @@
 
 <div id="who">
 	<div class="left">
-		<img src="/images/members/anderson-feitosa.png" alt="Anderson Lobo"/>
-		<h6>Anderson Lobo</h6>
+		<img src="/images/members/danilo-queiroz.png" alt="Danilo Queiroz" class="left"/>
+		<h6>Danilo Queiroz</h6>
 	</div>
 
 	<div class="left">
-		<img src="/images/members/danilo-queiroz.png" alt="Danilo Queiroz" class="left"/>
-		<h6>Danilo Queiroz</h6>
+		<img src="/images/members/erick-moreno.png" alt="Erick Moreno"/>
+		<h6>Erick Moreno</h6>
 	</div>
 
 	<div class="left">

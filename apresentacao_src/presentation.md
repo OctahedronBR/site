@@ -1,7 +1,7 @@
 !SLIDE
 
 <div id="logo">
-	<img src="/images/logo-grande.png" alt="Octahedron logo"/>
+	<img src="/images/logo-dark-big.png" alt="Octahedron logo"/>
 </div>
 
 ## contato@octahedron.com.br
@@ -205,6 +205,20 @@
 ## We are a startup that develops web applications for cloud computing environment.
 
 > We are totally focused on cloud computing and we are always trying to specialize even more in this area.
+
+!SLIDE
+
+### Our services
+
+* Consulting and integration
+* Projetcs on demand
+* Software as a Service
+
+> For more information, check out <a href="/solucoes" target="_blank">our services</a> on the company's site.
+
+!SLIDE
+
+# Why choose Octahedron?
 
 !SLIDE
 

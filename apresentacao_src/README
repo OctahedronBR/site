@@ -1,16 +1,31 @@
 Para gerar a apresentação foi utilizado o slidedown (https://github.com/nakajima/slidedown/).
 
+Para gerar o html, é necessário executar o slidedown:
+	$ slidedown source.md > destination.html -t import
+
+Mudar o título da pagína para: Octahedron - Apresenta&ccedil;&atilde;o
+
 Após gerar, será necessário alterar o título da página e o cabeçalho para referenciar as pastas corretas de estilo e scripts (css e js, respectivamente).
 	/apresentacao_src/js/
 	/apresentacao_src/css/
 
 Serão necessário adicionar o códigos...
 
-Abaixo logo após o <body>:
-	<div id="instructions">
-		Use as setas esquerda/direita para navegar e as cima/baixo para habilitar/desabilitar as notas.
-	</div>
-No <head> após os scripts:
+- Após o <title>:
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png" />
+
+- Abaixo logo após o <body>:
+    <div id="instructions">
+      Use as setas esquerda/direita para navegar e as cima/baixo para habilitar/desabilitar as notas.
+    </div>
+
+		ou
+
+    <div id="instructions">
+      Use the left/right arrow keys to navigate and the up/down arrow keys to enable/disable notes.
+    </div>
+
+- No <head> após os scripts:
     <script>
       var _gaq=[["_setAccount","UA-22233247-1"],["_trackPageview"]];
       (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
