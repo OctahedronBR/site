@@ -60,9 +60,9 @@ section#flags > ul { margin: 0; }
 section#flags > ul > li { display: inline; }
 section#flags > ul > li > a { font-weight: bold; color: #70694a; }
 
-section#container { margin: 0 auto; width: 850px; background: rgba(255, 255, 255, 0.7); -moz-box-shadow: 7px 5px 15px #999999; -webkit-box-shadow: 7px 5px 15px #999999; box-shadow: 7px 5px 15px #999999; }
+section#container { margin: 0 auto; width: 850px; background: rgba(255, 255, 255, 0.7); box-shadow: 0 0 12px #999999; -moz-box-shadow: 0 0 12px #999999; -webkit-box-shadow: 0 0 12px #999999; }
 
-header#top { width: 850px; height: 300px; display: table; }
+header#top { width: 850px; height: 300px; display: table; box-shadow: 0 3px 3px #999999; -moz-box-shadow: 0 3px 3px #999999; -webkit-box-shadow: 0 3px 3px #999999; }
 header#top > aside { width: 158px; height: 300px; background: url("/images/header-bg.png") repeat scroll 0 0 transparent; }
 header#top > aside > nav { float: left; }
 header#top > aside > nav > ul { margin: 0 0 0 13px; padding: 8px 0 0 0; }
@@ -89,7 +89,7 @@ section#social { padding: 15px 0 0 0; display: table; }
 section#twitter { width: 400px; margin: 0 0 0 20px; float: left; }
 section#twitter > ul { margin: 10px 0 0; }
 section#twitter > ul > li { margin: 0 0 15px; font-size: 14px; line-height: 21px; list-style: none; display: table; }
-section#twitter > ul > li > img { margin: 3px 10px 0 0; float: left; -moz-box-shadow: 0 0 4px #999999; -webkit-box-shadow: 0 0 4px #999999; box-shadow: 0 0 4px #999999; }
+section#twitter > ul > li > a > img { margin: 3px 10px 0 0; float: left; -moz-box-shadow: 0 0 4px #999999; -webkit-box-shadow: 0 0 4px #999999; box-shadow: 0 0 4px #999999; }
 
 section#blog { width: 375px; margin: 0 0 0 25px; float: left; }
 section#blog > ul { margin: 10px 0 0 15px; }

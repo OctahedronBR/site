@@ -10,7 +10,7 @@ $(document).ready(function(){
 				} else {
 					img = data[index].user.profile_image_url;
 				} 
-				$("section#twitter ul").append("<li><img src=\""+img+"\" width=\"48px\" height=\"48px\"/>"+data[index].text.replace(/(http:\/\/[a-zA-Z0-9_\.\-\/]*)/g,'<a href="$1" target="_blank">$1</a>').replace(/@([a-zA-Z0-9_\.\-\/]*)/g,'@<a href="http://twitter.com/$1" target="_blank">$1</a>').replace(/#([a-zA-Z0-9_\.\-\/]*)/g,'#<a href="http://twitter.com/#search?q=%23$1" target="_blank">$1</a>')+"</li>");
+				$("section#twitter ul").append("<li><a href=\"http://twitter.com/#!/OctahedronBR/status/" + data[index].id_str + "\" target=\"_blank\"><img src=\""+img+"\" width=\"48px\" height=\"48px\"/></a>"+data[index].text.replace(/(http:\/\/[a-zA-Z0-9_\.\-\/]*)/g,'<a href="$1" target="_blank">$1</a>').replace(/@([a-zA-Z0-9_\.\-\/]*)/g,'@<a href="http://twitter.com/$1" target="_blank">$1</a>').replace(/#([a-zA-Z0-9_\.\-\/]*)/g,'#<a href="http://twitter.com/#search?q=%23$1" target="_blank">$1</a>')+"</li>");
 			}
 			$("section#twitter ul").fadeIn("slow");
 	});
