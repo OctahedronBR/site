@@ -281,17 +281,17 @@
 
 !SLIDE
 
-# Who we are?
+# Who are we?
 
 <div id="who">
 	<div class="left">
-		<img src="/images/members/anderson-feitosa.png" alt="Anderson Lobo"/>
-		<h6>Anderson Lobo</h6>
+		<img src="/images/members/danilo-queiroz.png" alt="Danilo Queiroz" class="left"/>
+		<h6>Danilo Queiroz</h6>
 	</div>
 
 	<div class="left">
-		<img src="/images/members/danilo-queiroz.png" alt="Danilo Queiroz" class="left"/>
-		<h6>Danilo Queiroz</h6>
+		<img src="/images/members/erick-moreno.png" alt="Anderson Lobo"/>
+		<h6>Erick Moreno</h6>
 	</div>
 
 	<div class="left">
