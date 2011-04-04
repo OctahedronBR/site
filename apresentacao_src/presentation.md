@@ -258,6 +258,15 @@
 > The city, which is known as the "Brazilian Silicon Valley", is the birthplace of Parque Tecnológico da Paraíba (PaqTcPb) and the Universidade Federal de Campina Grande (UFCG).
 > UFCG is a reference in Computer Science and Electrical Engineering.
 
+!SLIDE
+
+# Important entities believe in our idea
+
+## Incubated in the Parque Tecnológico
+## Filiated to Farol Digital
+
+> For more information, visit the website of <a href="http://paqtc.org.br/" target="_blank">Parque Tecnológico</a> and <a href="http://faroldigital.org.br/" target="_blank">Farol Digital</a>.
+
 !SLIDE 
 
 # Trained and experienced professionals

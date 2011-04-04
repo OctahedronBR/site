@@ -258,6 +258,14 @@
 > A cidade, que é conhecida como "Vale do Silício brasileira", é berço do Parque Tecnológico da Paraíba e da Universidade Federal de Campina Grande (UFCG).
 > A UFCG é referência em Ciência da Computação e Engenharia Elétrica.
 
+!SLIDE
+
+# Entidades importantes acreditam em nossa ideia
+## Incubada no Parque Tecnológico
+## Filiada ao Farol Digital
+
+> Para maiores informações, visite o site do <a href="http://paqtc.org.br/" target="_blank">Parque Tecnológico</a> e <a href="http://faroldigital.org.br/" target="_blank">Farol Digital</a>.
+
 !SLIDE 
 
 # Profissionais capacitados e com experiência
