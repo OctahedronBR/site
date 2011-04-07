@@ -81,6 +81,7 @@ section#content > header.index > p { padding: 6px 0 0 0; color: #cce7d4; font-si
 section#content > article { margin: 20px 20px 0; }
 section#content > article > img { padding: 0 0 0 10px; }
 section#content > article p { margin: 2px 0 9px; font-size: 14.5px; line-height: 21px; text-align: justify; }
+section#content > article > ul > li { font-size: 14.5px; margin: 3px 0; }
 section#content > article a { border-bottom: 1px dashed #70694a; }
 section#content > article.index { display: table; }
 
@@ -100,8 +101,8 @@ article#multiple { height: 400px; overflow: hidden; }
 div#overflowed { width: 3400px; }
 div#overflowed > ul { margin: 0; }
 div#overflowed > ul > li { list-style: none; width: 810px; float: left; }
-div#overflowed > ul > li > article > ul { margin-top: 0; padding-top: 0; }
-div#overflowed > ul > li > article > ul > li { font-size: 14px; }
+div#overflowed > ul > li > article > ul { margin-top: -6px; padding-top: 0; }
+div#overflowed > ul > li > article > ul > li { font-size: 14.5px; }
 
 section#member { display: table; height: 188px; }
 section#member > hgroup { margin: 20px 0 0; }
