@@ -13,13 +13,13 @@ else
 	fi
 fi
 
-for i in *.html
-do 
-	grep "pt-br" $i > /dev/null
-	if [ $? -eq 0 ]
-	then
-		aspell -d pt_BR -H check $i
-	else
-		aspell -d en -H check $i
-	fi
+for i in $(grep -l 'lang="pt-br"' *.html | xargs)
+do
+	aspell -d pt_BR -H check $i
 done
+
+for i in $(grep -L 'lang="pt-br"' *.html | xargs)
+do
+	aspell -d en -H check $i
+done
+
