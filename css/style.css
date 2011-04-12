@@ -89,12 +89,12 @@ section#social { padding: 15px 0 0 0; display: table; }
 
 section#twitter { width: 400px; margin: 0 0 0 20px; float: left; }
 section#twitter > ul { margin: 10px 0 0; }
-section#twitter > ul > li { margin: 0 0 15px; font-size: 14px; line-height: 21px; list-style: none; display: table; }
+section#twitter > ul > li { margin: 0 0 15px; font-size: 13.5px; line-height: 21px; list-style: none; display: table; }
 section#twitter > ul > li > a > img { margin: 3px 10px 0 0; float: left; -moz-box-shadow: 0 0 4px #999999; -webkit-box-shadow: 0 0 4px #999999; box-shadow: 0 0 4px #999999; }
 
 section#blog { width: 375px; margin: 0 0 0 25px; float: left; }
 section#blog > ul { margin: 10px 0 0 15px; }
-section#blog > ul > li { margin: 0 0 5px; font-size: 14px; line-height: 21px; }
+section#blog > ul > li { margin: 0 0 5px; font-size: 13.5px; line-height: 21px; }
 
 article#multiple { height: 400px; overflow: hidden; }
 
