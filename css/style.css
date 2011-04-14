@@ -127,8 +127,8 @@ footer > section#partners { float: right; padding: 0 10px 0 0; }
 #octachat > form > fieldset > textarea { width: 97%; height: 40px; }
 #octachat > form > fieldset > label > input { width: 181px; }
 #octachat > form > fieldset > input { margin: 3px 1px 2px 0; float: right; height: 27px; }
-#octachat > form > fieldset > span { display: block; margin: 5px 0; padding: 3px 0 0 25px; background: url("/public/images/loading.gif") no-repeat left center; }
+#octachat > form > fieldset > span { display: block; margin: 5px 0; padding: 3px 0 0 25px; background: url("/images/loading.gif") no-repeat left center; }
 #octachat > h5 { margin: 5px 5px 5px 0; }
-#octachat > h5 > a { background: url("/public/images/chat.png") no-repeat left center; width: 100%; margin-left: 5px; padding: 5px 5px 5px 25px; text-decoration: none; font-size: 14.5px; color: #cce7d4; }
+#octachat > h5 > a { background: url("/images/chat.png") no-repeat left center; width: 100%; margin-left: 5px; padding: 5px 5px 5px 25px; text-decoration: none; font-size: 14.5px; color: #cce7d4; }
 #octachat > #log { height: 150px; background-color: white; overflow-y: auto; overflow-x: hidden; word-wrap: break-word; }
 #octachat > #log > ul { margin: 0; padding: 5px; background-color: white; color: #70694a; font-size: 13.5px; }
