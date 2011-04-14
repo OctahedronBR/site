@@ -123,14 +123,14 @@ footer > section#address { float: left; padding: 0 0 0 10px; }
 footer > section#partners { float: right; padding: 0 10px 0 0; }
 
 /* chat */
-#octachat { width: 235px; height: 30px; margin: 10px; padding: 3px; position: fixed; right: 0; bottom: 0; background-color: #70694a; overflow: hidden; box-shadow: 0 0 7px #999999; -moz-box-shadow: 0 0 7px #999999; -webkit-box-shadow: 0 0 7px #cccccc; color: #cce7d4; font-family: "PT Sans", "Arial", "Helvetica", "Lucida Grande", "Gill Sans", "Verdana", sans-serif; }
+#octachat { width: 235px; height: 28px; margin: 10px; padding: 3px; position: fixed; right: 0; bottom: 0; background-color: #70694a; overflow: hidden; box-shadow: 0 0 7px #999999; -moz-box-shadow: 0 0 7px #999999; -webkit-box-shadow: 0 0 7px #999999; color: #cce7d4; font-family: "PT Sans", "Arial", "Helvetica", "Lucida Grande", "Gill Sans", "Verdana", sans-serif; }
 #octachat > form { width: 100%; margin: 5px 0 5px 1px; display: table; font-size: 14.5px; }
 #octachat > form > fieldset { border: 0; padding: 0; margin: 0; }
 #octachat > form > fieldset > textarea { width: 97%; height: 40px; }
-#octachat > form > fieldset > label > input { margin: 3px 0 0 5px; width: 181px; }
+#octachat > form > fieldset > label > input { margin-left: 3px; width: 181px; }
 #octachat > form > fieldset > input { margin: 3px 1px 2px 0; float: right; height: 27px; }
-#octachat > form > fieldset > span { display: block; margin: 5px 0; padding: 3px 0 0 25px; background: url("/images/loading.gif") no-repeat left center; }
+#octachat > form > fieldset > span { display: block; margin: 5px 0; padding: 3px 0 0 25px; background: url("http://www.octahedron.com.br/images/loading.gif") no-repeat left center; }
 #octachat > h5 { margin: 5px 5px 5px 0; }
-#octachat > h5 > a { background: url("/images/chat.png") no-repeat left center; width: 100%; margin-left: 5px; padding: 5px 5px 5px 25px; text-decoration: none; font-size: 14.5px; color: #cce7d4; }
+#octachat > h5 > a { background: url("http://www.octahedron.com.br/images/chat.png") no-repeat left center; width: 100%; margin-left: 5px; padding: 5px 5px 5px 25px; text-decoration: none; font-size: 14.5px; color: #cce7d4; }
 #octachat > #log { height: 150px; background-color: white; overflow-y: auto; overflow-x: hidden; word-wrap: break-word; }
 #octachat > #log > ul { margin: 0; padding: 5px; background-color: white; color: #70694a; font-size: 13.5px; }
