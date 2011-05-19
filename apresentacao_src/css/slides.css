@@ -1,13 +1,3 @@
-@font-face {
-	font-family: 'AUdimat Regular';
-	src: local('AUdimat Regular'), url('/fonts/AUdimat-Regular.ttf');
-}
-
-@font-face {
-	font-family: 'AUdimat Bold';
-	src: local('AUdimat Bold'), url('/fonts/AUdimat-Bold.ttf');
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -15,7 +5,7 @@
 }
 
 body {
-  font-family: 'AUdimat Regular', Helvetica, Arial, Tahoma, sans-serif;
+  font-family: "Arial", "Helvetica", "Lucida Grande", "Gill Sans", "Verdana", sans-serif;
   color: #70694a;
   overflow: hidden;
   background-color: #cce7d4;
@@ -38,7 +28,7 @@ h1 {
 	margin: 0 0 50px;
 	text-align:center; 
 	font-size: 56px;
-	font-family: 'AUdimat Bold', Helvetica, Arial, Tahoma, sans-serif
+	font-family: "Arial", "Helvetica", "Lucida Grande", "Gill Sans", "Verdana", sans-serif;
 }
 h2 {
 	text-align:center;
@@ -74,7 +64,7 @@ blockquote {
 	bottom: 0;
 	position: fixed;
 	color: #cce7d4;
-	font: 20px Arial, Tahoma, Helvetica, sans-serif;
+	font: 20px "Arial", "Helvetica", "Lucida Grande", "Gill Sans", "Verdana", sans-serif;
 	text-align: justify;
 	line-height: 20px;
 	background-color: #70694a;
