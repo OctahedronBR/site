@@ -1,7 +1,7 @@
 !SLIDE
 
 <div id="logo">
-   <img src="/images/logo-dark-big.png" alt="Octahedron logo"/>
+   <img src="images/logo-dark-big.png" alt="Octahedron logo"/>
 </div>
 
 ## contato@octahedron.com.br
@@ -48,7 +48,7 @@
 !SLIDE
 
 <div>
-   <img class="center" src="/images/apps-ring.png" alt="Google Apps ring"/>
+   <img class="center" src="images/apps-ring.png" alt="Google Apps ring"/>
 </div>
 
 ## É uma suíte de colaboração e comunicação em tempo real fornecida pelo *Google*.
@@ -57,7 +57,7 @@
 !SLIDE
 
 <div>
-   <img class="center" src="/images/gmail.png" alt="Google Apps ring"/>
+   <img class="center" src="images/gmail.png" alt="Google Apps ring"/>
 </div>
 
 > **Email** fornece gigabytes de armazenamento de e-mail, spam altamente eficiente de filtragem e busca poderosa com serviços integrados de voz e vídeo.
@@ -66,7 +66,7 @@
 !SLIDE
 
 <div>
-   <img class="center" src="/images/docs.png" alt="Google Docs Gerenciador"/>
+   <img class="center" src="images/docs.png" alt="Google Docs Gerenciador"/>
 </div>
 
 > **Documentos** permite aos usuários criar e colaborar em documentos, planilhas, apresentações, formulários e desenhos em tempo real, bem como carregar e compartilhar qualquer tipo de arquivo.
@@ -74,25 +74,25 @@
 !SLIDE
 
 <div>
-   <img class="center" src="/images/doc.png" alt="Google Docs Documentos"/>
+   <img class="center" src="images/doc.png" alt="Google Docs Documentos"/>
 </div>
 
 !SLIDE
 
 <div>
-   <img class="center" src="/images/spreadsheet.png" alt="Google Docs Planilhas"/>
+   <img class="center" src="images/spreadsheet.png" alt="Google Docs Planilhas"/>
 </div>
 
 !SLIDE
 
 <div>
-   <img class="center" src="/images/presentation.png" alt="Google Docs Apresentação"/>
+   <img class="center" src="images/presentation.png" alt="Google Docs Apresentação"/>
 </div>
 
 !SLIDE
 
 <div>
-   <img class="center" src="/images/calendar.png" alt="Google Calendar"/>
+   <img class="center" src="images/calendar.png" alt="Google Calendar"/>
 </div>
 
 > **Calendário e eventos** permitem fácil coordenação de trabalho ou horários de aula, reuniões e eventos on-line;
@@ -100,7 +100,7 @@
 !SLIDE
 
 <div>
-   <img class="center" src="/images/sites.png" alt="Google Sites"/>
+   <img class="center" src="images/sites.png" alt="Google Sites"/>
 </div>
 
 > **Sites** permite o usuário desenvolver e personalizar sites ricos e incorporar o Google Docs, Google Agenda, vídeos e outras mídias. Não é necessário HTML.
@@ -155,7 +155,7 @@
 !SLIDE
 
 <div>
-   <img class="center" src="/images/maps-apps.png" alt="Mapa dos usuários Google Apps"/>
+   <img class="center" src="images/maps-apps.png" alt="Mapa dos usuários Google Apps"/>
 </div>
 
 !SLIDE
