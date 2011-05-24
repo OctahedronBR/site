@@ -9,8 +9,8 @@ Mudar o título da pagína para:
 	Octahedron - Presentation
 
 Após gerar, será necessário alterar o título da página e o cabeçalho para referenciar as pastas corretas de estilo e scripts (css e js, respectivamente).
-	/apresentacao_src/js/
-	/apresentacao_src/css/
+	/js/apresentacao/
+	/css/apresentacao/
 
 Serão necessário adicionar o códigos...
 

@@ -1,7 +1,7 @@
 !SLIDE
 
 <div id="logo">
-   <img src="images/logo-dark-big.png" alt="Octahedron logo"/>
+   <img src="/images/logo-dark-big.png" alt="Octahedron logo"/>
 </div>
 
 ## contato@octahedron.com.br
@@ -16,7 +16,7 @@
 !SLIDE
 
 <div>
-   <img class="center" src="images/apps-ring.png" alt="Google Apps ring"/>
+   <img class="center" src="/images/googleapps/apps-ring.png" alt="Google Apps ring"/>
 </div>
 
 ## É uma suíte de colaboração e comunicação em tempo real fornecida pelo *Google*.
@@ -25,7 +25,7 @@
 !SLIDE
 
 <div>
-   <img class="center" src="images/gmail.png" alt="Google Apps ring"/>
+   <img class="center" src="/images/googleapps/gmail.png" alt="Google Apps ring"/>
 </div>
 
 Google Email com 7 GB de armazenamento, bate-papo/conferência integrado, não é preciso mais se preocupar com as quotas de email ou spam.
@@ -38,7 +38,7 @@ Google Talk mantém os estudantes em contato, mesmo quando não estiverem no cam
 !SLIDE
 
 <div>
-   <img class="center" src="images/docs.png" alt="Google Docs Gerenciador"/>
+   <img class="center" src="/images/googleapps/docs.png" alt="Google Docs Gerenciador"/>
 </div>
 
 Google Docs permite que os alunos colaborarem em tempo real sobre documentos, planilhas e apresentações, no campus ou ao redor do mundo.
@@ -48,7 +48,7 @@ Google Docs permite que os alunos colaborarem em tempo real sobre documentos, pl
 !SLIDE
 
 <div>
-   <img class="center" src="images/doc.png" alt="Google Docs Documentos"/>
+   <img class="center" src="/images/googleapps/doc.png" alt="Google Docs Documentos"/>
 </div>
 
 Google Docs Documentos
@@ -56,7 +56,7 @@ Google Docs Documentos
 !SLIDE
 
 <div>
-   <img class="center" src="images/spreadsheet.png" alt="Google Docs Planilhas"/>
+   <img class="center" src="/images/googleapps/spreadsheet.png" alt="Google Docs Planilhas"/>
 </div>
 
 Google Docs Planilhas
@@ -64,7 +64,7 @@ Google Docs Planilhas
 !SLIDE
 
 <div>
-   <img class="center" src="images/presentation.png" alt="Google Docs Apresentação"/>
+   <img class="center" src="/images/googleapps/presentation.png" alt="Google Docs Apresentação"/>
 </div>
 
 Google Docs Apresentação
@@ -72,7 +72,7 @@ Google Docs Apresentação
 !SLIDE
 
 <div>
-   <img class="center" src="images/calendar.png" alt="Google Calendar"/>
+   <img class="center" src="/images/googleapps/calendar.png" alt="Google Calendar"/>
 </div>
 
 Google Calendar ajuda na organização da sua agenda e compartilhamento de calendários com outras pessoas
@@ -82,7 +82,7 @@ Google Calendar ajuda na organização da sua agenda e compartilhamento de calen
 !SLIDE
 
 <div>
-   <img class="center" src="images/sites.png" alt="Google Sites"/>
+   <img class="center" src="/images/googleapps/sites.png" alt="Google Sites"/>
 </div>
 
 Google Sites torna mais fácil compartilhar todos os tipos de informações, sem linguagem técnica para aprender e acessar de qualquer lugar.
@@ -137,6 +137,8 @@ Google Sites torna mais fácil compartilhar todos os tipos de informações, sem
 
 !SLIDE
 
+### Quem usa?
+
 * Cidade de Los Angeles
 * Motorola Mobile Devices
 * Arizona State University
@@ -147,7 +149,7 @@ Google Sites torna mais fácil compartilhar todos os tipos de informações, sem
 !SLIDE
 
 <div>
-   <img class="center" src="images/maps-apps.png" alt="Mapa dos usuários Google Apps"/>
+   <img class="center" src="/images/googleapps/maps-apps.png" alt="Mapa dos usuários Google Apps"/>
 </div>
 
 !SLIDE
@@ -155,6 +157,8 @@ Google Sites torna mais fácil compartilhar todos os tipos de informações, sem
 # Nossa proposta
 
 !SLIDE
+
+### Nossa proposta
 
 * Integração completa da solução
    * Incluindo migração de dados
