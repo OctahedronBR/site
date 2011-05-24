@@ -24,7 +24,7 @@ img {display:block;}
 
 a {text-decoration: none;}
 blockquote > p > a, blockquote > p > a:visited {color: #cce7d4; border-bottom: 1px dashed #cce7d4;}
-
+div > p {text-align: center; font-size: 18px;}
 h1 {
 	margin: 0 0 50px;
 	text-align:center; 

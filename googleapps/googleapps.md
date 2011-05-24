@@ -11,38 +11,6 @@
 
 !SLIDE
 
-### Agenda
-
-* Quem somos?
-* O que é *Google Apps for Education*?
-* Benefícios
-* Quem usa?
-* Nossa proposta
-
-!SLIDE
-
-# Quem somos?
-
-!SLIDE
-
-# A Octahedron
-
-## Somos uma empresa que provê soluções em comunicação e processos, proporcionando agilidade, escalabilidade, disponibilidade e inovação para seu negócio.
-
-> Fazemos o uso da computação em nuvem para atingir tais valores intangíveis para o negócio, pois acreditamos que este seja o modelo de negócio mais próximo do ideal.
->
->Somos totalmente dedicados à computação em nuvem e buscamos sempre nos especializar ainda mais nesta área.
-
-!SLIDE
-
-# Entidades importantes acreditam em nós
-## Incubada no Parque Tecnológico
-## Integrante do Farol Digital
-
-> Para maiores informações, visite o site do <a href="http://paqtc.org.br/" target="_blank">Parque Tecnológico</a> e <a href="http://faroldigital.org.br/" target="_blank">Farol Digital</a>.
-
-!SLIDE
-
 # O que é *Google Apps for Education*?
 
 !SLIDE
@@ -60,6 +28,10 @@
    <img class="center" src="images/gmail.png" alt="Google Apps ring"/>
 </div>
 
+Google Email com 7 GB de armazenamento, bate-papo/conferência integrado, não é preciso mais se preocupar com as quotas de email ou spam.
+
+Google Talk mantém os estudantes em contato, mesmo quando não estiverem no campus, com mensagens instantâneas e chamadas de voz através da web. 
+
 > **Email** fornece gigabytes de armazenamento de e-mail, spam altamente eficiente de filtragem e busca poderosa com serviços integrados de voz e vídeo.
 > **Bate-papo/Conferência** permite ao usuário enviar e receber mensagens instantâneas, fazer conferência e compartilhar vídeo em tempo real com os seus colegas.
 
@@ -69,6 +41,8 @@
    <img class="center" src="images/docs.png" alt="Google Docs Gerenciador"/>
 </div>
 
+Google Docs permite que os alunos colaborarem em tempo real sobre documentos, planilhas e apresentações, no campus ou ao redor do mundo.
+
 > **Documentos** permite aos usuários criar e colaborar em documentos, planilhas, apresentações, formulários e desenhos em tempo real, bem como carregar e compartilhar qualquer tipo de arquivo.
 
 !SLIDE
@@ -77,11 +51,15 @@
    <img class="center" src="images/doc.png" alt="Google Docs Documentos"/>
 </div>
 
+Google Docs Documentos
+
 !SLIDE
 
 <div>
    <img class="center" src="images/spreadsheet.png" alt="Google Docs Planilhas"/>
 </div>
+
+Google Docs Planilhas
 
 !SLIDE
 
@@ -89,11 +67,15 @@
    <img class="center" src="images/presentation.png" alt="Google Docs Apresentação"/>
 </div>
 
+Google Docs Apresentação
+
 !SLIDE
 
 <div>
    <img class="center" src="images/calendar.png" alt="Google Calendar"/>
 </div>
+
+Google Calendar ajuda na organização da sua agenda e compartilhamento de calendários com outras pessoas
 
 > **Calendário e eventos** permitem fácil coordenação de trabalho ou horários de aula, reuniões e eventos on-line;
 
@@ -103,7 +85,17 @@
    <img class="center" src="images/sites.png" alt="Google Sites"/>
 </div>
 
+Google Sites torna mais fácil compartilhar todos os tipos de informações, sem linguagem técnica para aprender e acessar de qualquer lugar.
+
 > **Sites** permite o usuário desenvolver e personalizar sites ricos e incorporar o Google Docs, Google Agenda, vídeos e outras mídias. Não é necessário HTML.
+
+!SLIDE
+
+# E mais...
+
+## Grupos de discussão
+## Vídeos
+## Contatos
 
 !SLIDE
 
@@ -117,9 +109,9 @@
 * Qualidade dos serviços prestados
 * Disponibilidade de 99,9%
 * Segurança/Confiabilidade
-* Ambiente de nuvem para criar novas aplicações, integradas à plataforma do Google Apps
+* Ambiente para criar novas aplicações integradas ao Google Apps
 
->  Exemplo de ferramenta de gerência de projetos
+>  Exemplo de ferramenta de gerência de projetos no App Engine
 
 !SLIDE
 
