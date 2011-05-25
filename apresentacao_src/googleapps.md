@@ -32,7 +32,7 @@ Google Email com 7 GB de armazenamento, bate-papo/conferência integrado, não �
 
 Google Talk mantém os estudantes em contato, mesmo quando não estiverem no campus, com mensagens instantâneas e chamadas de voz através da web. 
 
-> **Email** fornece gigabytes de armazenamento de e-mail, spam altamente eficiente de filtragem e busca poderosa com serviços integrados de voz e vídeo.
+> **Email** fornece gigabytes de armazenamento de e-mail, filtragem eficiente de spams e busca poderosa com serviços integrados de voz e vídeo.
 > **Bate-papo/Conferência** permite ao usuário enviar e receber mensagens instantâneas, fazer conferência e compartilhar vídeo em tempo real com os seus colegas.
 
 !SLIDE
@@ -69,6 +69,7 @@ Google Docs Planilhas
 
 Google Docs Apresentação
 
+> Estas ferramentas támbem possuem integração com o Microsoft Office através do Google Cloud Connect, que permite usar todas as vantagens de edição colaborativa e armazenamento remoto diretamente do MS Office.
 !SLIDE
 
 <div>
@@ -77,7 +78,7 @@ Google Docs Apresentação
 
 Google Calendar ajuda na organização da sua agenda e compartilhamento de calendários com outras pessoas
 
-> **Calendário e eventos** permitem fácil coordenação de trabalho ou horários de aula, reuniões e eventos on-line;
+> **Calendário e eventos** permitem fácil coordenação de trabalho ou horários de aula, reuniões e eventos on-line.
 
 !SLIDE
 
