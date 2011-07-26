@@ -39,13 +39,13 @@
 *   Ser mais competitivo
 *   Maior produtividade
 *   Tomadas de decisões mais acertadas
-*   **Usufruir** ao invés de **possuir**
+*   **Usufruir** em vez de **possuir**
 
 !SLIDE
 
 # TI pode ajudar
 
-> A TI deve ser encarada como uma prestação de um serviço, comparável ao telefone e a internet, e requer excelência, pois faz parte do cotidiano da organização.
+> A TI deve ser encarada como uma prestação de um serviço, comparável ao telefone e à internet, e requer excelência, pois faz parte do cotidiano da organização.
 
 !SLIDE
 
@@ -63,7 +63,7 @@
 
 # Porém...
 
-> (Supondo que a solução que você adotou faz aquilo que você espera)
+> (Supondo-se que a solução que você adotou faz aquilo que você espera)
 >
 > Uma boa solução de TI, para ser efetiva no seu objetivo (e realmente ajudar), precisa ter...
 
@@ -75,15 +75,15 @@
 
 # Disponibilidade
 
-> Imagine que sua empresa adotou uma solução de TI para controle de estoque, mas esta solução está sempre fora do ar. Você não só tem que fazer o controle manualmente, tal como feito antes, como você ainda perdeu tempo cadastrando seu estoque na aplicação e perde tempo tentando usar a aplicação.
+> Imagine que sua empresa adotou uma solução de TI para controle de estoque, mas essa solução está sempre fora do ar: você não só tem que fazer o controle manualmente — como feito antes —, mas ainda perdeu tempo cadastrando seu estoque na aplicação e perde tempo tentando usar essa aplicação.
 
 !SLIDE
 
 # Escalabilidade
 
-> Ou ainda, suponha que o site de vendas da sua empresa tenha sido noticiado como referência em algum veículo de mídia, e os acessos tiveram um aumento fora do comum. Sua estrutura não foi montada pensando neste pico, e provavelmente sua aplicação não vai aguentar. Você não vai deixar de atender apenas os novos clientes, mas também os antigos, e fiéis, clientes.
+> Suponha que o site de vendas da sua empresa foi noticiado como referência em algum veículo de mídia e os acessos tiveram um aumento fora do comum. Sua estrutura não foi montada pensando nesse pico, e provavelmente sua aplicação não vai aguentar. Você não vai deixar de atender apenas os novos clientes, mas também os antigos e fiéis.
 >
-> No final das contas sua grande preocupação com TI é não desperdiçar recursos, mas não perder negócios.
+> No final das contas, a grande preocupação com TI é não desperdiçar recursos e não perder negócios.
 
 !SLIDE
 
@@ -98,7 +98,7 @@
 
 > Quantas máquinas você (acha que) precisa? E se a demanda crescer inesperadamente? E se a máquina pifar? E se a rede cair?
 >
-> Planejamento de capacidade e custo operacional elevado são dois dos principais problemas referentes a disponibilidade e escalabilidade, e que mais pesam na hora de adotar soluções de TI.
+> Planejamento de capacidade e custo operacional elevado são dois dos principais problemas referentes a disponibilidade e escalabilidade, e os que mais pesam na hora de adotar soluções de TI.
 
 !SLIDE
 
@@ -125,7 +125,7 @@
 *   Não desperdiçar recursos
 *   Recursos tecnológicos sob demanda
 
-> Novamente, esta é uma visão de TI como um serviço e não como um "bem" da empresa.
+> Novamente, essa é uma visão de TI como um **serviço**, e não como um **bem** da empresa.
 
 !SLIDE
 
@@ -146,7 +146,7 @@
 *   Aplicação em nuvem
     *   Não se preocupe com onde sua aplicação está
 *   Não é preciso instalar software 
-*   Só é preciso estar conectado a Internet 
+*   Só é preciso estar conectado à Internet 
 *   Processamento é transparente para o usuário
 
 !SLIDE
@@ -162,7 +162,7 @@
 
 !SLIDE
 
-#### "Há maior disponibilidade e menor tempo administrativo, é fácil de usar, apresenta integração, colaboração entre usuários e não precisa de atualização do software."
+#### "[A computação em nuvem apresenta] maior disponibilidade e menor tempo administrativo, é fácil de usar, apresenta integração, colaboração entre usuários e não precisa de atualização do software."
  
 ##### **Alex Torres**, gerente de marketing de produto Google America Latina
 
@@ -190,7 +190,7 @@
 
 !SLIDE
 
-#### "As PMEs precisam melhorar os websites, habilitar as funções que permitam uma maior interatividade com o consumidor, utilizar as ferramentas disponíveis para publicidade online e adquirir maior conhecimento sobre o conceito de computação nas nuvens."
+#### "As PMEs precisam melhorar os websites, habilitar as funções que permitam uma maior interatividade com o consumidor, utilizar as ferramentas disponíveis para publicidade online e adquirir maior conhecimento sobre o conceito de computação em nuvem."
  
 ##### **Alexandre Hohagen**, diretor geral Google America Latina
 
@@ -204,9 +204,9 @@
 
 ## Somos uma empresa que provê soluções em comunicação e processos, proporcionando agilidade, escalabilidade, disponibilidade e inovação para seu negócio.
 
-> Fazemos o uso da computação em nuvem para atingir tais valores intangíveis para o negócio, pois acreditamos que este seja o modelo de negócio mais próximo do ideal.
+> Fazemos uso da domputação em nuvem para agregar valores intangíveis ao negócio do cliente, pois acreditamos que esse seja o modelo computacional mais próximo do ideal.
 >
->Somos totalmente dedicados à computação em nuvem e buscamos sempre nos especializar ainda mais nesta área.
+> Somos totalmente dedicados à computação em nuvem e buscamos sempre nos especializar ainda mais nessa área.
 
 !SLIDE
 
@@ -216,7 +216,7 @@
 * Projetos sob demanda
 * Software como serviço
 
-> Para maiores informações, confira <a href="/servicos" target="_blank">nossos serviços</a> na página da empresa.
+> Para mais informações, confira <a href="/servicos" target="_blank">nossos serviços</a> na página da Empresa.
 
 !SLIDE
 
@@ -228,15 +228,13 @@
 
 ## E nos dedicamos a isso!
 
-> Este é sem dúvida o nosso grande diferencial!
->
-> Computação em Nuvem não é uma novidade que temos que entender e nos adequar; é a nossa realidade, é o mundo onde nascemos.
+> Este é sem dúvida o nosso grande diferencial: não temos que entender e nos adequar à computação em nuvem; ela é a nossa realidade, é o mundo onde nascemos.
 
 !SLIDE
 
 # Empresa jovem criada por jovens empreendedores
 
-> Fazemos parte da tão falada "Geração Y"
+> Fazemos parte da tão falada Geração Y
 
 !SLIDE
 
@@ -247,7 +245,7 @@
 > Buscamos sempre conhecer as novidades e entender como elas podem nos ajudar. Olhamos sempre pra frente.
 > Queremos fazer o que fazemos cada vez melhor.
 >
-> Assim, já somos uma empresa que utiliza metodologias ágeis de desenvolvimento e que temos grande relação com o universo de Software Livre.
+> Assim, já somos uma empresa que utiliza metodologias ágeis de desenvolvimento e que temos forte relação com o universo de Software Livre.
 
 !SLIDE
 
@@ -255,21 +253,20 @@
 
 ## Cidade referência em tecnologia
 
-> A cidade, que é conhecida como "Vale do Silício brasileira", é berço do Parque Tecnológico da Paraíba e da Universidade Federal de Campina Grande (UFCG).
-> A UFCG é referência em Ciência da Computação e Engenharia Elétrica.
+> A cidade, que é conhecida como "Vale do Silício Brasileiro", é berço do Parque Tecnológico da Paraíba e da Universidade Federal de Campina Grande (UFCG), referência em Ciência da Computação e Engenharia Elétrica.
 
 !SLIDE
 
-# Entidades importantes acreditam em nossa ideia
+# Entidades importantes acreditam na nossa ideia
 ## Incubada no Parque Tecnológico
 ## Filiada ao Farol Digital
 
-> Para maiores informações, visite o site do <a href="http://paqtc.org.br/" target="_blank">Parque Tecnológico</a> e <a href="http://faroldigital.org.br/" target="_blank">Farol Digital</a>.
+> Para mais informações, visite o site do <a href="http://paqtc.org.br/" target="_blank">Parque Tecnológico</a> e <a href="http://faroldigital.org.br/" target="_blank">Farol Digital</a>.
 
 !SLIDE 
 
 # Profissionais capacitados e com experiência
-##Formados ou em formação na UFCG
+## Formados ou em formação na UFCG
 <br/><br/> 
 ## Atuação em projetos de pesquisa e desenvolvimento em sistemas distribuídos
 ## (HP, Chesf)
