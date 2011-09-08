@@ -23,28 +23,28 @@
 			<script type="text/javascript" src="/js/libs/selectivizr.js"></script>
 		<![endif]-->
 		<script>
-			head.js("http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js", "/js/site.js", "/js/detect.js", "/js/social.js", "/_ah/channel/jsapi", "/js/chat-min.js");
+			head.js("http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js", "/js/site.js", "/js/detect.js", "/js/social.js", "/_ah/channel/jsapi", "/js/chat-min.js");
 		</script>
 	</head>
 
 	<body>
-		<section id="flags">
+		<div id="flags">
 			<ul>
 				<li><img src="/images/flags/br.png" width="16px" height="11px" /></li>
 				<li><a href="/en"><img src="/images/flags/us.png" width="16px" height="11px" /> English</a></li>
 			</ul>
-		</section>
-		<section id="container">
+		</div>
+		<div id="container">
 			<header id="top">
 				<aside>
-					<a href="/"><h1>Octahedron</h1></a>
+					<a href="/"><img src="/images/logo-light-normal.png" alt="Octahedron" /></a>
 					<nav>
 						<ul class="menu">
 							<li><a href="/empresa">Empresa</a></li>
 							<li><a href="/solucoes">Soluções</a></li>
 							<li><a href="/servicos">Serviços</a></li>
 							<li><a href="/clientes">Clientes</a></li>
-							<li><a href="http://blog.octahedron.com.br/" target="_blank">Blog</a></li>
+							<li><a href="http://blog.octahedron.com.br/" target="_blank" id="blog-link">Blog</a></li>
 							<li><a href="/contato">Contato</a></li>
 						</ul>
 					</nav>
@@ -61,12 +61,14 @@
 					<section id="twitter">
 						<h3><a href="http://twitter.com/OctahedronBR" target="_blank">@OctahedronBR</a></h3>
 						<ul id="tweets">
+							<li>Carregando...</li>
 						</ul>
 					</section>
 
 					<section id="blog">
 						<h3>Notícias do blog</h3>
 						<ul id="news">
+							<li>Carregando...</li>
 						</ul>
 					</section>
 				</section>
@@ -87,7 +89,7 @@
 					<a href="http://www.faroldigital.org.br"><img src="images/farol-digital.png" width="127px" height="60px" alt="Farol Digital Logo" /></a>
 				</section>
 			</footer>
-		</section>
+		</div> <!-- #container -->
 		<!--[if lt IE 7 ]>
 			<script>head.js("/js/libs/dd_belatedpng.js", function() {DD_belatedPNG.fix("img, .png_bg")}</script>
 		<![endif]-->

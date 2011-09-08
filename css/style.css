@@ -57,18 +57,20 @@ html { height: 100%; }
 
 body { padding: 15px; font-family: "PT Sans", "Arial", "Helvetica", "Lucida Grande", "Gill Sans", "Verdana", sans-serif; background-color: #cce7d4; background-image: url("/images/bg-left.png"), url("/images/bg-right.png"); background-repeat: no-repeat, no-repeat; background-position: 0 125%, 100% 0; }
 
-section#flags { margin: 0 auto 5px; width: 850px; }
-section#flags > ul { margin: 0; }
-section#flags > ul > li { display: inline; }
-section#flags > ul > li > a { font-weight: bold; color: #70694a; }
+#flags { margin: 0 auto 5px; width: 960px; }
+#flags > ul { margin: 0; }
+#flags > ul > li { display: inline; }
+#flags > ul > li > a { font-weight: bold; color: #70694a; }
 
-section#container { margin: 0 auto; width: 850px; background: rgba(255, 255, 255, 0.7); box-shadow: 0 0 12px #999999; -moz-box-shadow: 0 0 12px #999999; -webkit-box-shadow: 0 0 12px #999999; }
+#container { margin: 0 auto; width: 960px; background: rgba(255, 255, 255, 0.7); box-shadow: 0 0 12px #999999; -moz-box-shadow: 0 0 12px #999999; -webkit-box-shadow: 0 0 12px #999999; }
 
-header#top { width: 850px; height: 300px; display: table; box-shadow: 0 3px 3px #999999; -moz-box-shadow: 0 3px 3px #999999; -webkit-box-shadow: 0 3px 3px #999999; }
-header#top > aside { width: 158px; height: 300px; background: url("/images/header-bg.png") repeat scroll 0 0 transparent; }
+header#top { width: 100%; height: 339px; display: table; box-shadow: 0 3px 3px #999999; -moz-box-shadow: 0 3px 3px #999999; -webkit-box-shadow: 0 3px 3px #999999; }
+header#top > img { position: absolute; }
+header#top > aside { position: absolute; width: 176px; height: 339px; background: url("/images/header-bg.png") repeat scroll 0 0 transparent; }
 header#top > aside > nav { float: left; }
-header#top > aside > nav > ul { margin: 0 0 0 13px; padding: 8px 0 0 0; }
-header#top > aside > nav > ul > li { padding: 1px 0 2px 0; font-size: 16.5px; }
+header#top > aside > nav > ul { margin: 0 0 0 11px; padding: 10px 0 0 0; }
+header#top > aside > nav > ul > li { padding: 2px 0 3px 0; font-size: 18.5px; }
+header#top > aside img { margin: 15px 11px 8px; }
 header#top > aside h1 { margin: 15px 13px 0 0; width: 132px; height: 129px; text-indent: -5000px; overflow: hidden; background: url(/images/logo-light-normal.png) no-repeat; float: right; }
 
 /* content */
@@ -80,7 +82,8 @@ section#content > header > nav > ul { margin: 8px 0 0 10px; }
 section#content > header > nav > ul > li { margin: 0 5px 0 5px; color: #cce7d4; font-size: 16.5px; display: inline; }
 section#content > header.index { height: 32px; background: #70694a; }
 section#content > header.index > p { padding: 6px 0 0 0; color: #cce7d4; font-size: 14.5px; text-align: center; }
-section#content > article { margin: 20px 20px 0; }
+section#content > article#multiple, section#content > article.index { margin: 20px 20px 0; }
+section#content > article { margin: 20px 0 0 20px; min-height: 300px; }
 section#content > article > img { padding: 0 0 0 10px; }
 section#content > article p { margin: 2px 0 9px; font-size: 14.5px; line-height: 21px; text-align: justify; }
 section#content > article > ul > li { font-size: 14.5px; margin: 3px 0; }
@@ -89,20 +92,20 @@ section#content > article.index { display: table; }
 
 section#social { padding: 15px 0 0 0; display: table; }
 
-section#twitter { width: 400px; margin: 0 0 0 20px; float: left; }
+section#twitter { width: 455px; margin: 0 0 0 20px; float: left; }
 section#twitter > ul { margin: 10px 0 0; }
 section#twitter > ul > li { margin: 0 0 15px; font-size: 13.5px; line-height: 21px; list-style: none; display: table; }
 section#twitter > ul > li > a > img { margin: 3px 10px 0 0; float: left; -moz-box-shadow: 0 0 4px #999999; -webkit-box-shadow: 0 0 4px #999999; box-shadow: 0 0 4px #999999; }
 
-section#blog { width: 375px; margin: 0 0 0 25px; float: left; }
+section#blog { width: 430px; margin: 0 0 0 25px; float: left; }
 section#blog > ul { margin: 10px 0 0 15px; }
 section#blog > ul > li { margin: 0 0 5px; font-size: 13.5px; line-height: 21px; }
 
-article#multiple { height: 400px; overflow: hidden; }
+article#multiple { overflow: hidden; }
 
-div#overflowed { width: 3400px; }
+div#overflowed { width: 3840px; }
 div#overflowed > ul { margin: 0; }
-div#overflowed > ul > li { list-style: none; width: 810px; float: left; }
+div#overflowed > ul > li { list-style: none; width: 920px; float: left; }
 div#overflowed > ul > li > article > ul { margin-top: -6px; padding-top: 0; }
 div#overflowed > ul > li > article > ul > li { font-size: 14.5px; }
 
@@ -110,12 +113,12 @@ section#member { display: table; height: 188px; }
 section#member > hgroup { margin: 20px 0 0; }
 section#member > img { float: left; }
 
-article.contact { width: 100%; display: table; }
+article.contact { width: 920px; display: table; }
 article.contact > div#form { width: 450px; float: left; }
 article.contact > div#form > p.warning { font-weight: bold; }
 article.contact > div#form > form > fieldset > input[type='text'], article.contact > div#form > form > fieldset > textarea { width: 275px; margin: 0 0 5px; }
 article.contact > div#form > form > fieldset > textarea { height: 100px; }
-article.contact > div#other-contacts { width: 275px; padding: 0 20px 0 0; float: right; }
+article.contact > div#other-contacts { width: 275px; float: right; }
 
 /* footer */
 footer { width: 100%; padding: 0 0 10px; display: table; }
@@ -123,6 +126,100 @@ footer > section#address { float: left; padding: 0 0 0 10px; }
 footer > section#partners { float: right; padding: 0 10px 0 0; }
 
 /* chat */
+/* -------------------------------------------- iPad in landscape -------------------------------------------- */
+@media only screen and (max-width: 1024px) { h4 { font-size: 17.5px; }
+  h5 { font-size: 16px; }
+  #container { width: 768px; }
+  #flags { width: 768px; }
+  header#top { height: 271px; }
+  header#top > aside { position: absolute; width: 158px; height: 271px; }
+  header#top > aside > nav > ul { margin: 0 0 0 13px; padding: 8px 0 0 0; }
+  header#top > aside > nav > ul > li { padding: 1px 0 2px 0; font-size: 16.5px; }
+  header#top > aside img { margin: 15px 20px 4px; width: 116px; }
+  header#top > img { position: absolute; width: 768px; }
+  section#blog { width: 344px; }
+  section#twitter { width: 368px; }
+  section#content > article p { font-size: 14px; }
+  section#content > header > h2 { padding-top: 7px; }
+  section#content > header > nav > ul { margin-top: 9px; }
+  section#content > header > nav > ul > li { margin: 0 2px; font-size: 16px; }
+  .equipe > article p, .team > article p { margin: 2px 0 9px 20px; }
+  div#overflowed { width: 400%; }
+  div#overflowed > ul > li, div#overflowed > ul > li { width: 25%; }
+  div#overflowed > ul > li > article, div#overflowed > ul > li > article { width: 100%; }
+  article.contact { width: 728px; }
+  article.contact > div#form { width: 420px; }
+  .tiny-article { height: 290px; } }
+/* -------------------------------------------- iPad in portrait -------------------------------------------- */
+@media only screen and (max-width: 768px) { h2 { font-size: 20.5px; }
+  h3 { font-size: 18.5px; }
+  h4 { font-size: 16px; }
+  h5 { font-size: 14.5px; }
+  #container { width: 600px; }
+  #flags { width: 600px; }
+  header#top { width: 100%; height: 210px; }
+  header#top aside { width: 600px; height: 210px; background: none; }
+  header#top aside > nav > ul { position: absolute; right: 0; top: 150px; background: url("/images/header-bg.png") repeat scroll 0 0 transparent; margin: 0; padding: 5px; }
+  header#top aside > nav > ul > li { display: inline; }
+  header#top aside > nav > ul > li > a { padding: 5px 5px 6px; }
+  header#top aside img { position: absolute; left: 0; top: 0; width: 100px; margin: 0; padding: 65px 15px; background: url("/images/header-bg.png") repeat scroll 0 0 transparent; }
+  header#top > img { position: absolute; max-width: 600px; }
+  section#blog { width: 268.75px; }
+  section#blog > ul { margin: 0 20px 0 0; }
+  section#blog > ul > li { list-style: none; font-size: 13px; }
+  section#twitter { width: 287.5px; }
+  section#twitter > ul > li { font-size: 13px; }
+  section#content > article { width: 560px; }
+  section#content > article p { width: 560px; font-size: 14px; }
+  section#content > header > nav > ul { margin-top: 10px; }
+  section#content > header > nav > ul > li { margin: 0 2px; font-size: 15px; }
+  .equipe > article p, .team > article p { margin: 2px 0 9px 20px; }
+  article.contact { width: 540px; }
+  article.contact hr { display: none; }
+  article.contact > div#form { width: 420px; float: none; }
+  article.contact > div#other-contacts { width: auto; margin: 20px 0 0 0; overflow: hidden; float: none; }
+  article.contact > div#other-contacts #address { width: 300px; float: left; }
+  article.contact > div#other-contacts #more { float: right; }
+  #member > img { padding-bottom: -5px; margin-bottom: -5px; } }
+@media only screen and (max-width: 600px) { h2 { font-size: 20.5px; }
+  h3 { font-size: 18.5px; }
+  h4 { font-size: 16px; }
+  h5 { font-size: 14.5px; }
+  #container { width: 480px; }
+  #flags { width: 480px; }
+  header#top { position: relative; height: 31px; box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none; }
+  header#top aside { width: 100%; height: 100%; }
+  header#top aside > nav > ul { top: auto; left: 0; text-align: center; }
+  header#top aside > nav > ul > li > a.selected { background: rgba(0, 0, 0, 0.3); }
+  header#top aside img { display: none; }
+  header#top > img { display: none; }
+  section#content { padding: 0; }
+  section#content > article { width: 440px; }
+  section#content > article p { width: 440px; }
+  section#content > header { height: auto; background: #393b32; text-align: center; }
+  section#content > header > h2 { display: none; }
+  section#content > header > nav { float: none; }
+  section#content > header > nav > ul { margin: 0; padding: 7px 5px; }
+  section#content > article p { min-width: 100%; font-size: 13px; }
+  article.contact div#other-contacts > #address { width: 240px; }
+  section#twitter { width: 96%; margin: 0 4% 0 3%; }
+  section#blog { width: 96%; margin: 0 4% 0 3%; }
+  section#member img { width: 145px; } }
+@media only screen and (max-width: 480px) { #flags { width: 360px; }
+  #container { width: 360px; }
+  header#top { height: 28px; }
+  header#top > aside { height: 100%; }
+  header#top > aside > nav > ul > li { font-size: 15px; }
+  section#content > article { width: 320px; }
+  section#content > article p { width: 320px; }
+  #blog-link { display: none; }
+  #partners { display: none; }
+  article.contact { width: auto; }
+  article.contact hr { display: block; }
+  article.contact div#other-contacts, article.contact div#form { width: auto; }
+  article.contact div#other-contacts #address, article.contact div#other-contacts #more { float: none; }
+  article.index > img { display: none; } }
+@media only screen and (max-width: 360px) { header#top > aside > nav > ul > li > a { padding: 6px 2.5px; } }
 #octachat { width: 235px; height: 29px; margin: 10px; padding: 3px; position: fixed; right: 0; bottom: 0; background-color: #70694a; overflow: hidden; color: #cce7d4; font-family: "PT Sans", "Arial", "Helvetica", "Lucida Grande", "Gill Sans", "Verdana", sans-serif; box-shadow: 0 0 7px #999999; -moz-box-shadow: 0 0 7px #999999; -webkit-box-shadow: 0 0 7px #999999; }
 #octachat > form { width: 100%; margin: 5px 0 5px 1px; display: block; font-size: 14.5px; }
 #octachat > form > fieldset { border: 0; padding: 0; margin: 0; }

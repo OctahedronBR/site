@@ -1,0 +1,300 @@
+/* --------------------------------------------
+ * iPad in landscape
+ * -------------------------------------------- */
+@media only screen and (max-width: 1024px)
+	h4
+		font-size: 17.5px
+	h5
+		font-size: 16px
+	
+	#container
+		width: 768px
+	
+	#flags
+		width: 768px
+
+	header#top
+		height: 271px
+
+		> aside
+			position: absolute
+			width: 158px
+			height: 271px
+		
+			> nav > ul
+				margin: 0 0 0 13px
+				padding: 8px 0 0 0
+
+				> li
+					padding: 1px 0 2px 0
+					font-size: 16.5px
+
+			img
+				margin: 15px 20px 4px
+				width: 116px
+		> img
+			position: absolute
+			width: 768px
+
+	section#blog
+		width: 344px
+	
+	section#twitter
+		width: 368px
+	
+	section#content
+		> article p
+			font-size: 14px
+		> header 
+			> h2
+				padding-top: 7px
+			> nav > ul
+				margin-top: 9px
+				> li
+					margin: 0 2px
+					font-size: 16px
+
+	.equipe, .team
+		> article p
+			margin: 2px 0 9px 20px
+
+	div#overflowed
+		width: 400%
+		> ul > li, > ul > li 
+			width: 25%
+			> article
+				width: 100%
+
+	article.contact /* contact */
+		width: 728px
+
+		> div#form
+			width: 420px
+
+	.tiny-article
+		height: 290px
+
+/* --------------------------------------------
+ * iPad in portrait
+ * -------------------------------------------- */
+@media only screen and (max-width: 768px)
+	h2
+		font-size: 20.5px
+	h3
+		font-size: 18.5px
+	h4
+		font-size: 16px
+	h5
+		font-size: 14.5px
+
+	#container
+		width: 600px
+
+	#flags
+		width: 600px
+	
+	header#top
+		width: 100%
+		height: 210px
+
+		aside
+			width: 600px
+			height: 210px
+			background: none
+			> nav > ul
+				position: absolute
+				right: 0
+				top: 150px
+				background: url("/images/header-bg.png") repeat scroll 0 0 transparent
+				margin: 0
+				padding: 5px
+				> li
+					display: inline
+					> a
+						padding: 5px 5px 6px
+			img
+				position: absolute
+				left: 0
+				top: 0
+				width: 100px
+				margin: 0
+				padding: 65px 15px
+				background: url("/images/header-bg.png") repeat scroll 0 0 transparent		
+		> img
+			position: absolute
+			max-width: 600px
+
+	section#blog
+		width: 268.75px
+		> ul 
+			margin: 0 20px 0 0
+			> li
+				list-style: none
+				font-size: 13px
+	
+	section#twitter
+		width: 287.5px
+		> ul > li
+			font-size: 13px
+	
+	section#content
+		> article
+			width: 560px 
+			p
+				width: 560px
+				font-size: 14px
+
+		> header > nav > ul
+			margin-top: 10px
+			> li
+				margin: 0 2px
+				font-size: 15px
+	
+	.equipe, .team
+		> article p
+			margin: 2px 0 9px 20px
+	
+	article.contact /* contact */
+		width: 540px
+		hr
+			display: none
+		> div#form
+			width: 420px
+			float: none
+		> div#other-contacts
+			width: auto
+			margin: 20px 0 0 0
+			overflow: hidden
+			float: none
+			#address
+				width: 300px
+				float: left
+			#more
+				float: right
+
+	#member > img
+		padding-bottom: -5px
+		margin-bottom: -5px
+
+
+@media only screen and (max-width: 600px)
+	h2
+		font-size: 20.5px
+	h3
+		font-size: 18.5px
+	h4
+		font-size: 16px
+	h5
+		font-size: 14.5px
+
+	#container
+		width: 480px
+	
+	#flags
+		width: 480px
+
+	header#top
+		position: relative
+		height: 31px
+		box-shadow: none
+		-moz-box-shadow: none
+		-webkit-box-shadow: none
+
+		aside	
+			width: 100%
+			height: 100%
+	
+			> nav > ul
+				top: auto
+				left: 0
+				text-align: center
+				> li > a.selected
+					background: rgba(0, 0, 0, 0.3)
+			img
+				display: none
+
+		> img
+			display: none
+
+	section#content
+		padding: 0
+		> article
+			width: 440px
+			p
+				width: 440px
+		> header
+			height: auto
+			background: #393b32
+			text-align: center
+			> h2
+				display: none
+			> nav
+				float: none
+				> ul
+					margin: 0
+					padding: 7px 5px
+
+		> article
+			p
+				min-width: 100%
+				font-size: 13px
+
+	article.contact
+		div#other-contacts > #address
+			width: 240px
+
+	section#twitter
+		width: 96%
+		margin: 0 4% 0 3%
+	
+	section#blog
+		width: 96%
+		margin: 0 4% 0 3%
+
+	section#member img
+		width: 145px
+
+@media only screen and (max-width: 480px)
+
+	#flags
+		width: 360px
+
+	#container
+		width: 360px
+
+	header#top
+		height: 28px
+		> aside
+			height: 100%
+			> nav > ul > li
+				font-size: 15px
+
+	section#content
+		> article
+			width: 320px
+			p
+				width: 320px
+
+	#blog-link
+		display: none
+
+	#partners
+		display: none
+
+	article.contact
+		width: auto
+		hr
+			display: block
+		div#other-contacts, div#form
+			width: auto
+		div#other-contacts
+			#address, #more
+				float: none
+
+	article.index
+		> img
+			display: none
+
+@media only screen and (max-width: 360px)
+	header#top > aside > nav > ul > li > a
+		padding: 6px 2.5px

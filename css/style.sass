@@ -74,9 +74,9 @@ body
 	background-position: 0 125%, 100% 0
 
 
-section#flags
+#flags
 	margin: 0 auto 5px
-	width: 850px
+	width: 960px
 
 	> ul
 		margin: 0
@@ -88,37 +88,42 @@ section#flags
 				font-weight: bold
 				color: $dark
 
-section#container
+#container
 	margin: 0 auto
-	width: 850px
+	width: 960px
 	background: rgba(255, 255, 255, 0.7)
 	box-shadow: 0 0 12px #999
 	-moz-box-shadow: 0 0 12px #999
 	-webkit-box-shadow: 0 0 12px #999
 
 header#top
-	width: 850px
-	height: 300px
+	width: 100%
+	height: 339px
 	display: table
 	box-shadow: 0 3px 3px #999
 	-moz-box-shadow: 0 3px 3px #999
 	-webkit-box-shadow: 0 3px 3px #999
 
-	> aside 
-		width: 158px
-		height: 300px
+	> img
+		position: absolute
+
+	> aside
+		position: absolute
+		width: 176px
+		height: 339px
 		background: url("/images/header-bg.png") repeat scroll 0 0 transparent
 
 		> nav 
 			float: left
-
 			> ul
-				margin: 0 0 0 13px
-				padding: 8px 0 0 0
-
+				margin: 0 0 0 11px
+				padding: 10px 0 0 0
 				> li
-					padding: 1px 0 2px 0
-					font-size: 16.5px
+					padding: 2px 0 3px 0
+					font-size: 18.5px
+
+		img
+			margin: 15px 11px 8px
 
 		h1
 			margin: 15px 13px 0 0
@@ -163,8 +168,12 @@ section#content
 			font-size: 14.5px
 			text-align: center
 
-	> article
+	> article#multiple, > article.index
 		margin: 20px 20px 0
+
+	> article
+		margin: 20px 0 0 20px
+		min-height: 300px
 
 		> img
 			padding: 0 0 0 10px
@@ -190,7 +199,7 @@ section#social /* social on index */
 	display: table
 
 section#twitter
-	width: 400px
+	width: 455px
 	margin: 0 0 0 20px
 	float: left
 
@@ -212,7 +221,7 @@ section#twitter
 				box-shadow: 0 0 4px #999
 
 section#blog
-	width: 375px
+	width: 430px
 	margin: 0 0 0 25px
 	float: left
 
@@ -225,18 +234,17 @@ section#blog
 			line-height: 21px
 
 article#multiple /* inner section#content */
-	height: 400px
 	overflow: hidden
 
 div#overflowed /* inner article#multiple */
-	width: 3400px
+	width: 3840px
 
 	> ul 
 		margin: 0
 
 		> li
 			list-style: none
-			width: 810px
+			width: 920px
 			float: left
 
 			> article > ul
@@ -257,7 +265,7 @@ section#member
 		float: left
 
 article.contact /* contact */
-	width: 100%
+	width: 920px
 	display: table
 
 	> div#form
@@ -276,7 +284,6 @@ article.contact /* contact */
 
 	> div#other-contacts
 		width: 275px
-		padding: 0 20px 0 0
 		float: right
 
 /* footer */
@@ -294,4 +301,5 @@ footer
 		padding: 0 10px 0 0
 
 /* chat */
+@import _mediaqueries.sass
 @import _chat.sass
